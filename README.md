@@ -8,6 +8,12 @@ Use the [online version](https://rasahq.github.io/rasa-nlu-trainer/) or [install
 
 `$ npm i -g rasa-nlu-trainer` (you'll need [nodejs and npm](https://nodejs.org/) for this)
 
+## installation with docker
+
+`# docker-compose up`
+
+Add access it at `http://localhost:3000/`
+
 ## launch
 `$ rasa-nlu-trainer` in your working directory
 

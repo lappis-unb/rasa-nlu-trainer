@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { Button, Icon } from 'antd'
 import { connect } from 'react-redux'
 import * as actions from '../state/actions'
-import isOnline from '../utils/isOnline'
+//import isOnline from '../utils/isOnline'
 import ClearButton from './ClearButton'
 import FileReaderInput from 'react-file-reader-input'
 import { saveAs } from 'file-saver'
@@ -53,6 +53,7 @@ class TopBar extends Component {
   render() {
     const { filename, isUnsaved, save, openAddModal } = this.props
 
+    const isOnline = true
     const fileButtons = isOnline
       ? (
         <div style={{display: 'flex'}}>

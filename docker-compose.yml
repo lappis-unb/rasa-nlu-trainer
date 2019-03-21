@@ -8,5 +8,8 @@ services:
         restart: unless-stopped
         ports: 
             - 8080:8080
+            - 4321:4321
+            - 3000:3000
         volumes:
             - ./app:/rasa-nlu-trainer
+        command: sh -c "npm start"
