@@ -2,7 +2,7 @@ FROM node:7.4-alpine
 RUN mkdir /rasa-nlu-data
 
 WORKDIR /rasa-nlu-trainer
-COPY . ./
+COPY ./app /rasa-nlu-trainer
 
 RUN npm i -g rasa-nlu-trainer
 
