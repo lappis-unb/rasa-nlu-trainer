@@ -51,7 +51,7 @@
     "whatwg-fetch": "1.0.0"
   },
   "author": "Polgár András <azazdeaz@gmail.com>",
-  "repository": "github:golastmile/rasa-nlu-trainer",
+  "repository": "github:lappis-unb.github.io/rasa-nlu-trainer",
   "keywords": [
     "rasa",
     "nlu",
@@ -59,7 +59,7 @@
     "rasa-nlu"
   ],
   "bugs": {
-    "url": "https://github.com/golastmile/rasa-nlu-trainer/issues"
+    "url": "https://github.com/lappis-unb.github.io/rasa-nlu-trainer/issues"
   },
   "dependencies": {
     "antd": "^2.8.0",
@@ -93,7 +93,7 @@
   "bin": {
     "rasa-nlu-trainer": "./server.js"
   },
-  "homepage": "https://golastmile.github.io/rasa-nlu-trainer/",
+  "homepage": "https://lappis-unb.github.io/rasa-nlu-trainer/",
   "license": "MIT",
   "jest": {
     "collectCoverageFrom": [
