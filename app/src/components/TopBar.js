@@ -77,7 +77,7 @@ class TopBar extends Component {
               saveAs(blob, filename)
             }}
           >
-            <Icon type='download' /> Download
+            <Icon type='download' /> Baixar
           </Button>
         </div>
       )
