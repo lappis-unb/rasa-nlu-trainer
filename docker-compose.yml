@@ -1,15 +1,15 @@
-version: '2'
+version: "2"
 
 services:
-    rasa-trainer:
-        build:
-            context: .
-            dockerfile: ./docker/Dockerfile
-        restart: unless-stopped
-        ports: 
-            - 8080:8080
-            - 4321:4321
-            - 3000:3000
-        volumes:
-            - ./app:/rasa-nlu-trainer
-        command: sh -c "npm install && npm start"
+  rasa-trainer:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+      - 4321:4321
+      - 3000:3000
+    volumes:
+      - ./app:/rasa-nlu-trainer
+    command: npm start
