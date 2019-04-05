@@ -1,6 +1,7 @@
 // @flow
 
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 import { findDOMNode } from 'react-dom'
 import { connect } from 'react-redux'
 import getColor from '../utils/getColor'
@@ -128,9 +129,9 @@ class TextEditor extends Component {
     const value = text.substr(entity.start, entity.end - entity.start)
     const end = text.substr(entity.end)
     return (
-      <div key={key} style={{...styles.zeroPos, ...styles.highlightText}}>
+      <div key={key} style={{ ...styles.zeroPos, ...styles.highlightText }}>
         <span>{start}</span>
-        <span style={{...getColor(entityNames.indexOf(entity.entity))}}>
+        <span style={{ ...getColor(entityNames.indexOf(entity.entity)) }}>
           {value}
         </span>
         <span>{end}</span>
@@ -145,7 +146,7 @@ class TextEditor extends Component {
     return (
       <div style={{ width: '100%', ...style }}>
         <div
-          style={{position: 'relative'}}
+          style={{ position: 'relative' }}
           ref={node => this.selectionAnchorNode = node}
         >
           <Input

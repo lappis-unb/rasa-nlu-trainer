@@ -104,14 +104,10 @@ class ExampleTable extends Component {
       },
     ]
 
-    // HACK to make the table exactly as high as the window with fixed header
-    const scrollHeight = window.innerHeight - (41+32+32+22)
-    
     return (
       <Table
         title={this.props.header}
         className='example-table'
-        scroll={{ y: scrollHeight }}
         columns={columns}
         dataSource={examples}
         rowKey='id'
@@ -125,17 +121,18 @@ class ExampleTable extends Component {
             collapse(example.id)
           }
         }}
-        onRowClick={(example, index, event) => {
-          //TODO: use expandRowByClick prop instead of this hack
-          if (event.target.nodeName === 'TD') {
-            if (expandeds.indexOf(example.id) !== -1) {
-              collapse(example.id)
-            }
-            else {
-              expand(example.id)
+        onRow={(record) => ({
+          onClick: (event) => {
+            if (event.target.nodeName === 'TD') {
+              if (expandeds.indexOf(record.id) !== -1) {
+                collapse(record.id)
+              }
+              else {
+                expand(record.id)
+              }
             }
           }
-        }}
+        })}
         pagination={{
           showSizeChanger: true,
           pageSizeOptions: ['10', '20', '40', '80', '160', '320'],
