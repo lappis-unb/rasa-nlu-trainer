@@ -1,0 +1,24 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js -p 4321 -d true &!"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "findit": "^2.0.0",
+    "fs": "0.0.1-security",
+    "get-port": "^5.0.0",
+    "open": "^6.1.0",
+    "path": "^0.12.7",
+    "update-notifier": "^2.5.0",
+    "yargs": "^13.2.2"
+  }
+}
