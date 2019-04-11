@@ -5,11 +5,12 @@ import { Modal } from 'antd'
 import { connect } from 'react-redux'
 import EntityTable from './EntityTable'
 import TextEditor from './TextEditor'
-import IntentEditor from './IntentEditor'
+import Editor from './Editor'
 import * as actions from '../state/actions'
 
+
 const mapState = (state) => ({
-  example: state.examples.find(({id}) => id === state.idExampleInModal)
+  example: state.examples.find(({ id }) => id === state.idExampleInModal)
 })
 
 const mapActions = dispatch => ({
@@ -30,7 +31,6 @@ class ExampleTable extends Component {
       saveAndClose,
       entityNames,
     } = this.props
-
     return (
       <Modal
         title='Add example'
@@ -45,12 +45,14 @@ class ExampleTable extends Component {
               <TextEditor
                 example={example}
                 entityNames={entityNames}
-                style={{marginBottom: 5}}
+                style={{ marginBottom: 5 }}
               />
-              <IntentEditor
+              <Editor
                 example={example}
-                intents={intents}
-                style={{marginBottom: 5}}
+                source={intents}
+                style={{ marginBottom: 5 }}
+                nameComponent="intent"
+                placeholder="intent"
               />
               <EntityTable
                 example={example}

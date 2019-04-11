@@ -11,7 +11,7 @@ const mapActions = dispatch => ({
   },
 })
 
-class IntentEditor extends Component {
+class Editor extends Component {
   handleIntentChange(intent: string) {
     const { edit, example } = this.props
 
@@ -21,19 +21,18 @@ class IntentEditor extends Component {
   }
 
   render() {
-    const { example, intents, style } = this.props
-
+    const { example, source, style, nameComponent, placeholder } = this.props
     return (
       <AutoComplete
-        dataSource={intents}
+        dataSource={source}
         style={{ width: 230, ...style }}
-        value={example.intent}
+        value={example[nameComponent]}
         onSelect={value => this.handleIntentChange(value)}
         onChange={value => this.handleIntentChange(value)}
-        placeholder='intent'
+        placeholder={placeholder}
       />
     )
   }
 }
 
-export default connect(null, mapActions)(IntentEditor)
+export default connect(null, mapActions)(Editor)

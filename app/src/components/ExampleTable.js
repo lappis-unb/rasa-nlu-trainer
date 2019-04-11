@@ -5,8 +5,9 @@ import { Table, Input } from 'antd'
 import { connect } from 'react-redux'
 import ExampleEditor from './ExampleEditor'
 import TextEditor from './TextEditor'
-import IntentEditor from './IntentEditor'
+import Editor from './Editor'
 import * as actions from '../state/actions'
+  ;
 
 const mapState = (state) => ({
   examples: state.examples
@@ -38,7 +39,8 @@ class ExampleTable extends Component {
       expand,
       collapse,
       intents,
-      entityNames,
+      utters,
+      entityNames
     } = this.props
     const expandeds = examples
       .filter(example => example.isExpanded)
@@ -54,9 +56,11 @@ class ExampleTable extends Component {
           value: intent,
         })),
         render: (_, example) => (
-          <IntentEditor
+          <Editor
             example={example}
-            intents={intents}
+            source={intents}
+            nameComponent="intent"
+            placeholder="intent"
           />
         ),
         onFilter: (value, example) => (
@@ -67,7 +71,8 @@ class ExampleTable extends Component {
           return a.intent.localeCompare(b.intent)
         },
         width: 250
-      }, {
+      },
+      {
         title: 'Text',
         dataIndex: 'text',
         key: 'text',

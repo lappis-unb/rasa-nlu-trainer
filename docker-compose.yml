@@ -12,6 +12,8 @@ services:
     volumes:
       - ./app:/rasa-nlu-trainer
     command: npm start
+    links:
+      - node-server
   node-server:
     build:
       context: .
@@ -22,3 +24,4 @@ services:
     volumes:
       - ./node_server:/node_server
     command: node server.js -p 4321 -d true &!
+

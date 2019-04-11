@@ -47,7 +47,7 @@ export const loadData = () => async (dispatch: Function): Promise<void> => {
 }
 
 export const SAVING_DONE = 'SAVING_DONE'
-export const save = (source: string): Function =>  async (
+export const save = (source: string): Function => async (
   dispatch: Function
 ): Promise<void> => {
   const response = await fetch(`${ROOT_PATH}save`, {

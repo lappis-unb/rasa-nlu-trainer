@@ -24,7 +24,7 @@ class App extends Component {
     }
 
     const intents = []
-    examples.forEach(({intent}) => {
+    examples.forEach(({ intent }) => {
       if (intent && intents.indexOf(intent) === -1) {
         intents.push(intent)
       }
@@ -32,18 +32,22 @@ class App extends Component {
 
     const entityNames = []
     examples.forEach((example) => {
-      example.entities.forEach(({entity}) => {
+      example.entities.forEach(({ entity }) => {
         if (entity && entityNames.indexOf(entity) === -1) {
           entityNames.push(entity)
         }
       })
     })
-
+    const utters = []
+    examples.forEach(({ utter }) => {
+      if (utter && utters.indexOf(utter) === -1) utters.push(utter)
+    })
     return (
       <div>
         <ExampleTable
           intents={intents}
           entityNames={entityNames}
+          utters={utters}
           header={() => <TopBar />}
         />
         <AddExampleModal
@@ -51,7 +55,7 @@ class App extends Component {
           entityNames={entityNames}
         />
         <CompatibilityAlert />
-      </div>
+      </div >
     )
   }
 }

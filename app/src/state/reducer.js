@@ -1,6 +1,6 @@
 // @flow
 import immutable from 'object-path-immutable'
-import testData from './testData.json'
+import testData from './testData.js'
 import isOnline from '../utils/isOnline'
 import pick from 'lodash/pick'
 
@@ -20,10 +20,11 @@ import {
 
 let exampleIDCounter = 0
 
-function createExample({text='', intent='', entities=[]}) {
+function createExample({ text = '', intent = '', utter = '', entities = [] }) {
   return {
     text,
     intent,
+    utter,
     entities,
     updatedAt: Date.now(),
     isExpanded: false,
@@ -31,29 +32,29 @@ function createExample({text='', intent='', entities=[]}) {
   }
 }
 
-function prepareExamples(examples = []) {
+function prepareExamplesIntents(examples = []) {
   return examples.map(example => createExample(example))
 }
 
 const INITIAL_STATE = {
-  filename: 'testData.json',
+  filename: 'testData.js',
   originalSource: isOnline ? testData : null,
   examples: isOnline
-    ? testData.rasa_nlu_data.common_examples.map(e => createExample(e))
+    ? testData.rasa_nlu_data.common_examples.intents.map(e => createExample(e))
     : null,
   isUnsaved: false,
   selection: null,
   idExampleInModal: null,
 }
 
-export default function reducer (
+export default function reducer(
   state: Object = INITIAL_STATE,
   action: Object
 ): Object {
   const { type, payload } = action
 
   function getExampleIndex(_id: string) {
-    return state.examples.findIndex(({id}) => id === _id)
+    return state.examples.findIndex(({ id }) => id === _id)
   }
 
   switch (type) {
@@ -68,7 +69,7 @@ export default function reducer (
     }
     case EDIT: {
       const { id, value } = payload
-      const update = pick(value, ['text', 'intent', 'entities'])
+      const update = pick(value, ['text', 'intent', 'utter', 'entities'])
       state = immutable.assign(
         state,
         `examples.${getExampleIndex(id)}`,
@@ -95,7 +96,7 @@ export default function reducer (
       const { data, path } = payload
       return {
         ...state,
-        examples: prepareExamples(data.rasa_nlu_data.common_examples),
+        examples: prepareExamplesIntents(data.rasa_nlu_data.common_examples.intents),
         originalSource: data,
         filename: path,
       }
