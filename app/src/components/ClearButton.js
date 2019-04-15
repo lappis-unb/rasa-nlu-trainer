@@ -28,12 +28,12 @@ class ClearButton extends Component {
         placement='bottomRight'
         title={'Do you want to clear all the examples?'}
         visible={this.state.open}
-        onVisibleChange={open => this.setState({open})}
+        onVisibleChange={open => this.setState({ open })}
         content={
           <Button
             onClick={() => {
               reset()
-              this.setState({open: false})
+              this.setState({ open: false })
             }}
           >
             Yes
@@ -41,7 +41,7 @@ class ClearButton extends Component {
         }
         trigger='click'
       >
-        <Button style={ style }>
+        <Button style={style}>
           Clear
         </Button>
       </Popover>

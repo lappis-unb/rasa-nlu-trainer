@@ -10,6 +10,7 @@ import * as actions from './state/actions'
 import './index.css'
 import isOnline from './utils/isOnline'
 import store from './state/store'
+import * as serviceWorker from './serviceWorker'
 
 // only request data from the server if it is running locally
 if (!isOnline) {
@@ -25,3 +26,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 )
+serviceWorker.unregister();
