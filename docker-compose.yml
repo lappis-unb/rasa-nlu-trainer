@@ -1,27 +1,31 @@
-version: "2"
+version: "3.4"
 
 services:
   rasa-trainer:
     build:
       context: .
-      dockerfile: ./docker/react.Dockerfile
+      dockerfile: ./docker/Dockerfile
+      target: react
     restart: unless-stopped
     ports:
       - 8080:8080
       - 3000:3000
     volumes:
-      - ./app:/rasa-nlu-trainer
+      - ./app/:/rasa-nlu-trainer/
+      - /app/node_modules
     command: npm start
     links:
       - node-server
   node-server:
     build:
       context: .
-      dockerfile: ./docker/nodeServer.Dockerfile
+      dockerfile: ./docker/Dockerfile
+      target: node
     restart: unless-stopped
     ports:
       - 4321:4321
     volumes:
-      - ./node_server:/node_server
+      - ./node_server/:/node_server/
+      - /node_server/node_modules
     command: node server.js -p 4321 -d true &!
 
