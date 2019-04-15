@@ -29,8 +29,8 @@ const styles = {
 }
 
 const mapActions = dispatch => ({
-  edit: (idExample, update) => {
-    dispatch(actions.edit(idExample, update))
+  edit: (idExample, update, className) => {
+    dispatch(actions.edit(idExample, update, className))
   },
   setSelection: (idExample, start, end) => {
     dispatch(actions.setSelection(idExample, start, end))
@@ -63,6 +63,7 @@ class TextEditor extends Component {
     const {
       example,
       edit,
+      className
     } = this.props
     const {
       text: oldText,
@@ -120,7 +121,7 @@ class TextEditor extends Component {
     edit(example.id, {
       text,
       entities,
-    })
+    }, className)
   }
 
   renderEntityHighlight(text: string, entity: Object, key: number) {

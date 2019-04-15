@@ -1,6 +1,6 @@
 // @flow
 import immutable from 'object-path-immutable'
-import testData from './testData.js'
+import testData from './testData.json'
 import isOnline from '../utils/isOnline'
 import pick from 'lodash/pick'
 
@@ -12,6 +12,7 @@ import {
   SAVING_DONE,
   EXPAND,
   COLLAPSE,
+  SET_MODAL_ID,
   OPEN_ADD_MODAL,
   CLOSE_ADD_MODAL,
   SAVE_AND_CLOSE_ADD_MODAL,
@@ -20,41 +21,44 @@ import {
 
 let exampleIDCounter = 0
 
-function createExample({ text = '', intent = '', utter = '', entities = [] }) {
-  return {
-    text,
-    intent,
-    utter,
-    entities,
-    updatedAt: Date.now(),
-    isExpanded: false,
-    id: (++exampleIDCounter).toString(),
+const createExample = ({ text = '', intent = '', utter = '', entities = [] }, scope) => {
+  let returnJSON = {}
+  switch (scope) {
+    case 'intents':
+      returnJSON = {
+        text, intent, entities, updatedAt: Date.now(),
+        isExpanded: false,
+        id: (++exampleIDCounter).toString(),
+      }
+      break;
+    case 'utters':
+      returnJSON = {
+        utter, updatedAt: Date.now(),
+        id: (++exampleIDCounter).toString(),
+      }
+      break;
   }
+  return returnJSON
 }
 
-function prepareExamplesIntents(examples = []) {
-  return examples.map(example => createExample(example))
+const prepareExamples = (examples = [], scope) => {
+  return examples.map(example => createExample(example, scope))
 }
 
 const INITIAL_STATE = {
-  filename: 'testData.js',
+  filename: 'testData.json',
   originalSource: isOnline ? testData : null,
-  examples: isOnline
-    ? testData.rasa_nlu_data.common_examples.intents.map(e => createExample(e))
-    : null,
+  intents: testData.rasa_nlu_data.common_examples.intents.map(e => createExample(e, "intents")),
+  utters: testData.rasa_nlu_data.common_examples.utters.map(e => createExample(e, "utters")),
   isUnsaved: false,
   selection: null,
   idExampleInModal: null,
 }
-
-export default function reducer(
-  state: Object = INITIAL_STATE,
-  action: Object
-): Object {
+export default function reducer(state = INITIAL_STATE, action) {
   const { type, payload } = action
 
-  function getExampleIndex(_id: string) {
-    return state.examples.findIndex(({ id }) => id === _id)
+  const getExampleIndex = (_id, className="intents") => {
+    return state[className].findIndex(({ id }) => id === _id)
   }
 
   switch (type) {
@@ -68,11 +72,16 @@ export default function reducer(
       }
     }
     case EDIT: {
-      const { id, value } = payload
-      const update = pick(value, ['text', 'intent', 'utter', 'entities'])
+      const { id, value, className } = payload
+      const prop = {
+        intents: ['text', 'intent', 'entities'],
+        utters: ['utter'],
+        stories: ['intent', 'utter']
+      }
+      const update = pick(value, prop[className])
       state = immutable.assign(
         state,
-        `examples.${getExampleIndex(id)}`,
+        `${className}.${getExampleIndex(id, className)}`,
         { ...update, updatedAt: Date.now() },
       )
       return { ...state, isUnsaved: true }
@@ -96,7 +105,8 @@ export default function reducer(
       const { data, path } = payload
       return {
         ...state,
-        examples: prepareExamplesIntents(data.rasa_nlu_data.common_examples.intents),
+        examplesIntents: prepareExamples(data.rasa_nlu_data.common_examples.intents, "intents"),
+        examplesUtters: prepareExamples(data.rasa_nlu_data.common_examples.utters, "utters"),
         originalSource: data,
         filename: path,
       }
@@ -112,7 +122,7 @@ export default function reducer(
 
       return immutable.set(
         state,
-        `examples.${getExampleIndex(id)}.isExpanded`,
+        `intents.${getExampleIndex(id)}.isExpanded`,
         true,
       )
     }
@@ -121,24 +131,25 @@ export default function reducer(
 
       return immutable.set(
         state,
-        `examples.${getExampleIndex(id)}.isExpanded`,
+        `intents.${getExampleIndex(id)}.isExpanded`,
         false,
       )
     }
-
+    case SET_MODAL_ID: {
+      const exampleUtters = createExample({}, "utters")
+      state = immutable.push(state, "utters", exampleUtters)
+      return immutable.set(state, `idExampleInModal`, exampleUtters.id)
+    }
     case OPEN_ADD_MODAL: {
-      const example = createExample({})
-      state = immutable.push(
-        state,
-        `examples`,
-        example,
-      )
-      return immutable.set(state, `idExampleInModal`, example.id)
+      const exampleIntents = createExample({}, "intents")
+      state = immutable.push(state, "intents", exampleIntents)
+      return immutable.set(state, `idExampleInModal`, exampleIntents.id)
     }
     case CLOSE_ADD_MODAL: {
+      const { className } = payload
       state = immutable.del(
         state,
-        `examples.${getExampleIndex(state.idExampleInModal)}`,
+        `${className}.${getExampleIndex(state.idExampleInModal, className)}`,
       )
       return immutable.set(state, `idExampleInModal`, null)
     }

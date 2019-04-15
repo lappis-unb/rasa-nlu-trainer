@@ -56,11 +56,11 @@ class TopBar extends Component {
     const isOnline = true
     const fileButtons = isOnline
       ? (
-        <div style={{display: 'flex'}}>
+        <div style={{ display: 'flex' }}>
           <FileReaderInput
             as='text'
             onChange={(e, results) => this.handleFileInputChange(e, results)}
-            >
+          >
             <Button type='ghost' style={styles.button}>
               <Icon type='upload' /> Click to Upload
             </Button>
@@ -70,7 +70,7 @@ class TopBar extends Component {
             style={styles.button}
             onClick={() => {
               var blob = new Blob(
-                [ generateExport() ],
+                [generateExport()],
                 { type: 'text/plain;charset=utf-8' },
               )
               debugger
@@ -83,7 +83,7 @@ class TopBar extends Component {
       )
       : (
         <Button
-          style={ styles.button }
+          style={styles.button}
           type={isUnsaved ? 'primary' : 'default'}
           onClick={() => save(generateExport())}
         >
@@ -96,17 +96,17 @@ class TopBar extends Component {
         <h3 style={{ marginLeft: 8, marginTop: 5 }}>
           {filename}
         </h3>
-        <div style={{flex: 1}} />
+        <div style={{ flex: 1 }} />
         <Button
-          style={ styles.button }
+          style={styles.button}
           type='primary'
           onClick={() => openAddModal()}
         >
           Add new example
         </Button>
         {fileButtons}
-        <ClearButton style={ styles.button }/>
-      </div>
+        <ClearButton style={styles.button} />
+      </div >
     )
   }
 }

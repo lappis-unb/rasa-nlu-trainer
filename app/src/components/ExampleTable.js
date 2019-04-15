@@ -10,7 +10,7 @@ import * as actions from '../state/actions'
   ;
 
 const mapState = (state) => ({
-  examples: state.examples
+  stateIntents: state.intents
 })
 
 const mapActions = dispatch => ({
@@ -35,14 +35,14 @@ class ExampleTable extends Component {
   }
   render() {
     const {
-      examples,
+      stateIntents,
       expand,
       collapse,
       intents,
       utters,
       entityNames
     } = this.props
-    const expandeds = examples
+    const expandeds = stateIntents
       .filter(example => example.isExpanded)
       .map(example => example.id)
     const { searchText, filterDropdownVisible, tableChangedAt } = this.state
@@ -60,7 +60,7 @@ class ExampleTable extends Component {
             example={example}
             source={intents}
             nameComponent="intent"
-            placeholder="intent"
+            className="intents"
           />
         ),
         onFilter: (value, example) => (
@@ -114,7 +114,7 @@ class ExampleTable extends Component {
         title={this.props.header}
         className='example-table'
         columns={columns}
-        dataSource={examples}
+        dataSource={stateIntents}
         rowKey='id'
         size='middle'
         expandedRowKeys={expandeds}

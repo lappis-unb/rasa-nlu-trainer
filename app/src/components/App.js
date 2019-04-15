@@ -9,13 +9,14 @@ import { connect } from 'react-redux'
 import { Spin } from 'antd'
 
 const mapState = (state) => ({
-  examples: state.examples
+  stateIntents: state.intents,
+  stateUtters: state.utters
 })
 
 class App extends Component {
   render() {
-    const { examples } = this.props
-    if (!examples) {
+    const { stateIntents, stateUtters } = this.props
+    if (!stateIntents) {
       return (
         <Spin style={{ width: '100%', height: '100%' }}>
           <div />
@@ -24,14 +25,14 @@ class App extends Component {
     }
 
     const intents = []
-    examples.forEach(({ intent }) => {
+    stateIntents.forEach(({ intent }) => {
       if (intent && intents.indexOf(intent) === -1) {
         intents.push(intent)
       }
     })
 
     const entityNames = []
-    examples.forEach((example) => {
+    stateIntents.forEach((example) => {
       example.entities.forEach(({ entity }) => {
         if (entity && entityNames.indexOf(entity) === -1) {
           entityNames.push(entity)
@@ -39,20 +40,20 @@ class App extends Component {
       })
     })
     const utters = []
-    examples.forEach(({ utter }) => {
-      if (utter && utters.indexOf(utter) === -1) utters.push(utter)
+    stateUtters.forEach((example) => {
+      utters.push(example)
     })
     return (
       <div>
         <ExampleTable
           intents={intents}
           entityNames={entityNames}
-          utters={utters}
           header={() => <TopBar />}
         />
         <AddExampleModal
           intents={intents}
           entityNames={entityNames}
+          utters={utters}
         />
         <CompatibilityAlert />
       </div >

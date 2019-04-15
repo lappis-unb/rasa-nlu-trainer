@@ -6,22 +6,18 @@ import { connect } from 'react-redux'
 import * as actions from '../state/actions'
 
 const mapActions = dispatch => ({
-  edit: (idExample, update) => {
-    dispatch(actions.edit(idExample, update))
+  edit: (idExample, update, className) => {
+    dispatch(actions.edit(idExample, update, className))
   },
 })
 
 class Editor extends Component {
-  handleIntentChange(intent: string) {
-    const { edit, example } = this.props
-
-    edit(example.id, {
-      intent,
-    })
+  handleIntentChange(intent) {
+    const { edit, example, className } = this.props
+    edit(example.id, { intent }, className)
   }
-
   render() {
-    const { example, source, style, nameComponent, placeholder } = this.props
+    const { example, source, style, nameComponent } = this.props
     return (
       <AutoComplete
         dataSource={source}
@@ -29,7 +25,7 @@ class Editor extends Component {
         value={example[nameComponent]}
         onSelect={value => this.handleIntentChange(value)}
         onChange={value => this.handleIntentChange(value)}
-        placeholder={placeholder}
+        placeholder={nameComponent}
       />
     )
   }
