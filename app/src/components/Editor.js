@@ -12,9 +12,9 @@ const mapActions = dispatch => ({
 })
 
 class Editor extends Component {
-  handleIntentChange(intent) {
-    const { edit, example, className } = this.props
-    edit(example.id, { intent }, className)
+  handleIntentChange(value) {
+    const { edit, example, className, nameComponent } = this.props
+    edit(example.id, { [nameComponent]:value }, className)
   }
   render() {
     const { example, source, style, nameComponent } = this.props

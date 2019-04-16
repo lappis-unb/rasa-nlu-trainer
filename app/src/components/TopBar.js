@@ -20,8 +20,8 @@ const mapActions = dispatch => ({
   save: (examples) => {
     dispatch(actions.save(examples))
   },
-  openAddModal: () => {
-    dispatch(actions.openAddModal())
+  openAddModal: (number) => {
+    dispatch(actions.openAddModal(number))
   },
   fetchData: (path, data) => {
     dispatch(actions.fetchData(path, data))
@@ -100,10 +100,20 @@ class TopBar extends Component {
         <Button
           style={styles.button}
           type='primary'
-          onClick={() => openAddModal()}
+          onClick={() => openAddModal(1)}
+          key={"intentButton"}
         >
-          Add new example
+          Add new intent
         </Button>
+        <Button
+          style={styles.button}
+          type='primary'
+          onClick={() => openAddModal(2)}
+          key={"utterButton"}
+          >
+          Add new utter
+          </Button>
+          
         {fileButtons}
         <ClearButton style={styles.button} />
       </div >

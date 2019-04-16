@@ -40,8 +40,10 @@ class App extends Component {
       })
     })
     const utters = []
-    stateUtters.forEach((example) => {
-      utters.push(example)
+    stateUtters.forEach(({utter}) => {
+      if(utter && utters.indexOf(utter) === -1){
+      utters.push(utter)
+      }
     })
     return (
       <div>

@@ -71,8 +71,9 @@ export const collapse = (id) => ({
 })
 
 export const OPEN_ADD_MODAL = 'OPEN_ADD_MODAL'
-export const openAddModal = () => ({
-  type: OPEN_ADD_MODAL
+export const openAddModal = (number) => ({
+  type: OPEN_ADD_MODAL,
+  payload: {number}
 })
 export const SET_MODAL_ID = 'SET_MODAL_ID'
 export const setModalId = (className) => ({

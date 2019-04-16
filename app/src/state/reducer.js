@@ -79,6 +79,7 @@ export default function reducer(state = INITIAL_STATE, action) {
         stories: ['intent', 'utter']
       }
       const update = pick(value, prop[className])
+      console.log(value)
       state = immutable.assign(
         state,
         `${className}.${getExampleIndex(id, className)}`,
@@ -141,9 +142,21 @@ export default function reducer(state = INITIAL_STATE, action) {
       return immutable.set(state, `idExampleInModal`, exampleUtters.id)
     }
     case OPEN_ADD_MODAL: {
-      const exampleIntents = createExample({}, "intents")
-      state = immutable.push(state, "intents", exampleIntents)
-      return immutable.set(state, `idExampleInModal`, exampleIntents.id)
+      const {number} = payload 
+      if (number === 1){
+        const exampleIntents = createExample({}, "intents")
+        state = immutable.push(state, "intents", exampleIntents)
+        state.modalClass = number
+        state = immutable.set(state, `idExampleInModal`, exampleIntents.id)
+      }else if (number === 2){
+        const exampleUtters = createExample({}, "utters")
+        state = immutable.push(state, "utters", exampleUtters)
+        state.modalClass = number
+        state = immutable.set(state, `idExampleInModal`, exampleUtters.id)
+      }
+      return state
+
+      
     }
     case CLOSE_ADD_MODAL: {
       const { className } = payload

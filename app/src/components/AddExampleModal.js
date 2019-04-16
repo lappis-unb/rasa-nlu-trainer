@@ -10,10 +10,11 @@ import * as actions from '../state/actions'
 
 const TabPane = Tabs.TabPane
 const mapState = (state) => { 
-  const {intents, utters} = state
+  const {intents, utters, modalClass} = state
   return {
     intentCreate: intents.find(({id}) => id === state.idExampleInModal),
-    uttersCreate: utters.find(({id}) => id === state.idExampleInModal)
+    utterCreate: utters.find(({id}) => id === state.idExampleInModal),
+    modalCreate: modalClass
   }
 }
 
@@ -33,26 +34,20 @@ class ExampleTable extends Component {
   render() {
     const {
       intentCreate,
-      uttersCreate,
+      utterCreate,
       intents,
       utters,
       close,
       saveAndClose,
       setModalId,
       entityNames,
+      modalCreate,
     } = this.props
-    return (
-      <Modal
-        title='Add example'
-        visible={Boolean(intentCreate)}
-        onOk={() => saveAndClose("intents")}
-        onCancel={() => close()}
-        okText='add'
-      >
-        <Tabs defaultActiveKey="intents">
-      {intentCreate ?
-          (<TabPane tab={<span><Icon type="robot" />Intents</span>} key="intents">
-            <div>
+
+    const modalRender = () => {
+      let options
+      if(modalCreate === 1 && intentCreate){
+          options = <div>
               <TextEditor
                 example={intentCreate}
                 entityNames={entityNames}
@@ -70,28 +65,31 @@ class ExampleTable extends Component {
                 example={intentCreate}
                 entityNames={entityNames}
               />
-            </div>
-          </TabPane>
-          ):
-          <TabPane tab={<span><Icon type="robot" />Intents</span>} key="intents"></TabPane>
-          }
-          {uttersCreate ? 
-          (<TabPane tab={<span><Icon type="robot" />Utters</span>} key="utters">
-            {/* <div>
-            <Editor
-                key={"utter"}
-                example={uttersCreate}
-                source={utters}
-                style={{ marginBottom: 5 }}
-                nameComponent="utter"
-                className="utters"
-              />
-            </div> */}
-          </TabPane>
-          ):<TabPane tab={<span><Icon type="robot" />Utters</span>} key="utters"></TabPane>
-          }
-        </Tabs>
-
+          </div>
+      }else if(modalCreate === 2 && utterCreate){
+        options =  <div>
+                    <Editor 
+                      example={utterCreate}
+                      source={utters}
+                      style={{marginBottom:5}}
+                      nameComponent="utter"
+                      className="utters"
+                      />
+                    </div>
+      }
+      return options
+    }
+    return (
+      <Modal
+        title='Add example'
+        visible={Boolean(intentCreate) || Boolean(utterCreate)}
+        onOk={() => saveAndClose("intents")}
+        onCancel={() => close()}
+        okText='add'
+      >
+      {
+        modalRender()
+      }
       </Modal>
     )
   }
