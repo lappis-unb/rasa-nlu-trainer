@@ -113,7 +113,15 @@ class TopBar extends Component {
           >
           Add new utter
           </Button>
-          
+          <Button
+          style={styles.button}
+          type='primary'
+          onClick={() => openAddModal(2)}
+          key={"storieButton"}
+          >
+          Add new storie
+          </Button>
+
         {fileButtons}
         <ClearButton style={styles.button} />
       </div >

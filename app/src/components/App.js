@@ -10,12 +10,13 @@ import { Spin } from 'antd'
 
 const mapState = (state) => ({
   stateIntents: state.intents,
-  stateUtters: state.utters
+  stateUtters: state.utters,
+  stateStories: state.stories
 })
 
 class App extends Component {
   render() {
-    const { stateIntents, stateUtters } = this.props
+    const { stateIntents, stateUtters, stateStories } = this.props
     if (!stateIntents) {
       return (
         <Spin style={{ width: '100%', height: '100%' }}>
@@ -45,6 +46,12 @@ class App extends Component {
       utters.push(utter)
       }
     })
+    const stories = []
+    stateStories.forEach(({stories}) => {
+      if(stories && stories.indexOf(stories) === -1){
+      stories.push(stories)
+      }
+    })
     return (
       <div>
         <ExampleTable
@@ -56,11 +63,11 @@ class App extends Component {
           intents={intents}
           entityNames={entityNames}
           utters={utters}
+          stories={stories}
         />
         <CompatibilityAlert />
       </div >
     )
-  }
+  } 
 }
-
 export default connect(mapState)(App)

@@ -10,10 +10,11 @@ import * as actions from '../state/actions'
 
 const TabPane = Tabs.TabPane
 const mapState = (state) => { 
-  const {intents, utters, modalClass} = state
+  const {intents, utters, stories, modalClass} = state
   return {
     intentCreate: intents.find(({id}) => id === state.idExampleInModal),
     utterCreate: utters.find(({id}) => id === state.idExampleInModal),
+    storieCreate: stories.find(({id}) => id === state.idExampleInModal),
     modalCreate: modalClass
   }
 }
@@ -35,8 +36,10 @@ class ExampleTable extends Component {
     const {
       intentCreate,
       utterCreate,
+      storieCreate,
       intents,
       utters,
+      stories,
       close,
       saveAndClose,
       setModalId,
@@ -76,13 +79,23 @@ class ExampleTable extends Component {
                       className="utters"
                       />
                     </div>
+      }else if(modalCreate === 3 && storieCreate){
+        options =  <div>
+                    <Editor 
+                      example={storieCreate}
+                      source={stories}
+                      style={{marginBottom:5}}
+                      nameComponent="stories"
+                      className="stories"
+                      />
+                    </div>
       }
       return options
     }
     return (
       <Modal
         title='Add example'
-        visible={Boolean(intentCreate) || Boolean(utterCreate)}
+        visible={Boolean(intentCreate) || Boolean(utterCreate) || Boolean(storieCreate)}
         onOk={() => saveAndClose("intents")}
         onCancel={() => close()}
         okText='add'

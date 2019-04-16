@@ -21,7 +21,7 @@ import {
 
 let exampleIDCounter = 0
 
-const createExample = ({ text = '', intent = '', utter = '', entities = [] }, scope) => {
+const createExample = ({ text = '', intent = '', utter = '', storie = '', entities = [] }, scope) => {
   let returnJSON = {}
   switch (scope) {
     case 'intents':
@@ -37,10 +37,15 @@ const createExample = ({ text = '', intent = '', utter = '', entities = [] }, sc
         id: (++exampleIDCounter).toString(),
       }
       break;
+    case 'stories':
+      returnJSON = {
+        storie, updatedAt: Date.now(),
+        id: (++exampleIDCounter).toString(),
+      }
+      break;
   }
   return returnJSON
 }
-
 const prepareExamples = (examples = [], scope) => {
   return examples.map(example => createExample(example, scope))
 }
@@ -50,6 +55,7 @@ const INITIAL_STATE = {
   originalSource: isOnline ? testData : null,
   intents: testData.rasa_nlu_data.common_examples.intents.map(e => createExample(e, "intents")),
   utters: testData.rasa_nlu_data.common_examples.utters.map(e => createExample(e, "utters")),
+  stories: testData.rasa_nlu_data.common_examples.stories.map(e => createExample(e, "stories")),
   isUnsaved: false,
   selection: null,
   idExampleInModal: null,
@@ -108,6 +114,7 @@ export default function reducer(state = INITIAL_STATE, action) {
         ...state,
         examplesIntents: prepareExamples(data.rasa_nlu_data.common_examples.intents, "intents"),
         examplesUtters: prepareExamples(data.rasa_nlu_data.common_examples.utters, "utters"),
+        examplesStories: prepareExamples(data.rasa_nlu_data.common_examples.stories, "stories"),
         originalSource: data,
         filename: path,
       }
@@ -153,6 +160,11 @@ export default function reducer(state = INITIAL_STATE, action) {
         state = immutable.push(state, "utters", exampleUtters)
         state.modalClass = number
         state = immutable.set(state, `idExampleInModal`, exampleUtters.id)
+      }else if (number === 3){
+        const exampleStories = createExample({}, "stories")
+        state = immutable.push(state, "stories", exampleStories)
+        state.modalClass = number
+        state = immutable.set(state, `idExampleInModal`, exampleStories.id)
       }
       return state
 
