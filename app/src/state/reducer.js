@@ -21,12 +21,12 @@ import {
 
 let exampleIDCounter = 0
 
-const createExample = ({ text = '', utter = '', nameUtter = '', nameIntent = '', entities = [] }, scope) => {
+const createExample = ({ intent = '', utter = '', nameUtter = '', nameIntent = '', entities = [] }, scope) => {
   let returnJSON = {}
   switch (scope) {
     case 'intents':
       returnJSON = {
-        nameIntent, text, entities, updatedAt: Date.now(),
+        nameIntent, intent, entities, updatedAt: Date.now(),
         isExpanded: false,
         id: (++exampleIDCounter).toString(),
       }
@@ -80,9 +80,9 @@ export default function reducer(state = INITIAL_STATE, action) {
     case EDIT: {
       const { id, value, className } = payload
       const prop = {
-        intents: ['text', 'intent', 'entities'],
-        utters: ['utter'],
-        stories: ['intent', 'utter']
+        intents: ['nameIntent', 'intent', 'entities'],
+        utters: ['utter', 'nameUtter'],
+        stories: ['nameIntent', 'nameUtter']
       }
       const update = pick(value, prop[className])
       state = immutable.assign(

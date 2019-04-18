@@ -66,10 +66,10 @@ class IntentEditor extends Component {
       className
     } = this.props
     const {
-      text: oldText,
+      intent: oldText,
       entities: oldEntities,
     } = example
-    const text = event.target.value
+    const intent = event.target.value
     const entities = []
 
     //update the entity boudaries
@@ -82,7 +82,7 @@ class IntentEditor extends Component {
 
       function findClosestStart(lastMatch: ?number) {
         if (!lastMatch) {
-          const index = text.indexOf(oldSelection)
+          const index = intent.indexOf(oldSelection)
           if (index === -1) {
             return index
           }
@@ -92,7 +92,7 @@ class IntentEditor extends Component {
         }
         else {
           const from = lastMatch + oldSelection.length
-          const index = text.indexOf(oldSelection, from)
+          const index = intent.indexOf(oldSelection, from)
           if (index === -1) {
             return lastMatch
           }
@@ -119,16 +119,16 @@ class IntentEditor extends Component {
     })
 
     edit(example.id, {
-      text,
+      intent,
       entities,
     }, className)
   }
 
-  renderEntityHighlight(text: string, entity: Object, key: number) {
+  renderEntityHighlight(intent: string, entity: Object, key: number) {
     const { entityNames } = this.props
-    const start = text.substr(0, entity.start)
-    const value = text.substr(entity.start, entity.end - entity.start)
-    const end = text.substr(entity.end)
+    const start = intent.substr(0, entity.start)
+    const value = intent.substr(entity.start, entity.end - entity.start)
+    const end = intent.substr(entity.end)
     return (
       <div key={key} style={{ ...styles.zeroPos, ...styles.highlightText }}>
         <span>{start}</span>
@@ -141,8 +141,8 @@ class IntentEditor extends Component {
   }
 
   render() {
-    const { example, style } = this.props
-    const { text, nameIntent, entities = [] } = example
+    const { example, placeholder, style } = this.props
+    const { intent, entities = [] } = example
 
     return (
       <div style={{ width: '100%', ...style }}>
@@ -153,11 +153,11 @@ class IntentEditor extends Component {
           <Input
             ref={node => this.inputNode = node && findDOMNode(node)}
             onChange={event => this.handleTextChange(event)}
-            value={text}
-            placeholder='text'
+            value={intent}
+            placeholder={placeholder}
           />
           {entities.map((entity, index) => {
-            return this.renderEntityHighlight(text, entity, index)
+            return this.renderEntityHighlight(intent, entity, index)
           })}
         </div>
       </div>
@@ -167,7 +167,7 @@ class IntentEditor extends Component {
 
 IntentEditor.propTypes = {
   example: PropTypes.shape({
-    text: PropTypes.string.isRequired,
+    intent: PropTypes.string.isRequired,
     entities: PropTypes.arrayOf(PropTypes.shape({
       start: PropTypes.number.isRequired,
       end: PropTypes.number.isRequired,

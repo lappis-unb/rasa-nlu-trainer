@@ -26,9 +26,9 @@ class App extends Component {
     }
 
     const intents = []
-    stateIntents.forEach(({ intent }) => {
-      if (intent && intents.indexOf(intent) === -1) {
-        intents.push(intent)
+    stateIntents.forEach(({ nameIntent }) => {
+      if (nameIntent && intents.indexOf(nameIntent) === -1) {
+        intents.push(nameIntent)
       }
     })
 
@@ -41,15 +41,15 @@ class App extends Component {
       })
     })
     const utters = []
-    stateUtters.forEach(({utter}) => {
-      if(utter && utters.indexOf(utter) === -1){
-      utters.push(utter)
+    stateUtters.forEach(({utter, nameUtter}) => {
+      if(nameUtter && utters.indexOf(nameUtter) === -1){
+      utters.push(nameUtter)
       }
     })
-    const stories = []
-    stateStories.forEach(({stories}) => {
-      if(stories && stories.indexOf(stories) === -1){
-      stories.push(stories)
+    const stories = [{nameIntent: '', nameUtter: ''}]
+    stateStories.forEach(({nameIntent, nameUtter}) => {
+      if(nameIntent && nameUtter){
+      stories.push({nameIntent, nameUtter})
       }
     })
     return (

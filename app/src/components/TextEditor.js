@@ -43,22 +43,21 @@ class TextEditor extends Component {
 
   handleTextChange(event: Object) {
     const {
-      example,
+      object,
       edit,
-      className
+      className,
+      objectProp
     } = this.props
     const text = event.target.value
 
     //update the entity boudaries
-
-    edit(example.id, {
-      text,
+    edit(object.id, {
+      [objectProp]: text,
     }, className)
   }
 
   render() {
-    const { placeholder, example, style } = this.props
-    const { text } = example
+    const { placeholder, object, style, objectProp } = this.props
     
     return (
       <div style={{ width: '100%', ...style }}>
@@ -69,7 +68,7 @@ class TextEditor extends Component {
           <Input
             ref={node => this.inputNode = node && findDOMNode(node)}
             onChange={event => this.handleTextChange(event)}
-            value={text}
+            value={object[objectProp]}
             placeholder={placeholder}
           />
         </div>

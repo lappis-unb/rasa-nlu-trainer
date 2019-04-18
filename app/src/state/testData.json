@@ -3,56 +3,58 @@
     "common_examples": {
       "stories": [
         {
-          "intent": "greet",
-          "utter": "Hello!!"
+          "nameIntent": "greet",
+          "nameUtter": "Hello!!"
         },
         {
-          "intent": "greet",
-          "utter": "Hi!!"
+          "nameIntent": "greet",
+          "nameUtter": "Hi!!"
         }
       ],
       "utters": [
         {
-          "text": "Hello!!"
+          "utter": "Hello!!",
+          "nameUtter": "utter_hello"
         },
         {
-          "text": "Hi!!"
+          "utter": "Hi!!",
+          "nameUtter": "utter_hi"
         }
       ],
       "intents": [
         {
-          "text": "hey",
-          "intent": "greet",
+          "intent": "hey",
+          "nameIntent": "greet",
           "entities": []
         },
         {
-          "text": "howdy",
-          "intent": "greet",
+          "intent": "howdy",
+          "nameIntent": "greet",
           "entities": []
         },
         {
-          "text": "hey there",
-          "intent": "greet",
+          "intent": "hey there",
+          "nameIntent": "greet",
           "entities": []
         },
         {
-          "text": "hello",
-          "intent": "greet",
+          "intent": "hello",
+          "nameIntent": "greet",
           "entities": []
         },
         {
-          "text": "hi",
-          "intent": "greet",
+          "intent": "hi",
+          "nameIntent": "greet",
           "entities": []
         },
         {
-          "text": "i'm looking for a place to eat",
-          "intent": "restaurant_search",
+          "intent": "i'm looking for a place to eat",
+          "nameIntent": "restaurant_search",
           "entities": []
         },
         {
-          "text": "i'm looking for a place in the north of town",
-          "intent": "restaurant_search",
+          "intent": "i'm looking for a place in the north of town",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 31,
@@ -63,8 +65,8 @@
           ]
         },
         {
-          "text": "show me chinese restaurants",
-          "intent": "restaurant_search",
+          "intent": "show me chinese restaurants",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 8,
@@ -75,23 +77,23 @@
           ]
         },
         {
-          "text": "yes",
-          "intent": "affirm",
+          "intent": "yes",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "yep",
-          "intent": "affirm",
+          "intent": "yep",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "yeah",
-          "intent": "affirm",
+          "intent": "yeah",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "show me a mexican place in the centre",
-          "intent": "restaurant_search",
+          "intent": "show me a mexican place in the centre",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 31,
@@ -108,33 +110,33 @@
           ]
         },
         {
-          "text": "bye",
-          "intent": "goodbye",
+          "intent": "bye",
+          "nameIntent": "goodbye",
           "entities": []
         },
         {
-          "text": "goodbye",
           "intent": "goodbye",
+          "nameIntent": "goodbye",
           "entities": []
         },
         {
-          "text": "good bye",
-          "intent": "goodbye",
+          "intent": "good bye",
+          "nameIntent": "goodbye",
           "entities": []
         },
         {
-          "text": "stop",
-          "intent": "goodbye",
+          "intent": "stop",
+          "nameIntent": "goodbye",
           "entities": []
         },
         {
-          "text": "end",
-          "intent": "goodbye",
+          "intent": "end",
+          "nameIntent": "goodbye",
           "entities": []
         },
         {
-          "text": "i am looking for an indian spot",
-          "intent": "restaurant_search",
+          "intent": "i am looking for an indian spot",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 20,
@@ -145,13 +147,13 @@
           ]
         },
         {
-          "text": "search for restaurants",
-          "intent": "restaurant_search",
+          "intent": "search for restaurants",
+          "nameIntent": "restaurant_search",
           "entities": []
         },
         {
-          "text": "anywhere in the west",
-          "intent": "restaurant_search",
+          "intent": "anywhere in the west",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 16,
@@ -162,8 +164,8 @@
           ]
         },
         {
-          "text": "central indian restaurant",
-          "intent": "restaurant_search",
+          "intent": "central indian restaurant",
+          "nameIntent": "restaurant_search",
           "entities": [
             {
               "start": 0,
@@ -180,23 +182,23 @@
           ]
         },
         {
-          "text": "indeed",
-          "intent": "affirm",
+          "intent": "indeed",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "that's right",
-          "intent": "affirm",
+          "intent": "that's right",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "ok",
-          "intent": "affirm",
+          "intent": "ok",
+          "nameIntent": "affirm",
           "entities": []
         },
         {
-          "text": "great",
-          "intent": "affirm",
+          "intent": "great",
+          "nameIntent": "affirm",
           "entities": []
         }
       ]

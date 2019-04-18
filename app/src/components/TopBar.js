@@ -119,7 +119,7 @@ class TopBar extends Component {
           onClick={() => openAddModal('stories')}
           key={"storieButton"}
           >
-          Add new storie
+          Add new story
           </Button>
 
         {fileButtons}
