@@ -4,7 +4,6 @@ const fs = require('fs');
 const app = express.Router();
 const path = require('path');
 const Joi = require('joi');
-const testData = require('../testData.json');
 
 const jsonObjects = {
   rasa_nlu_data: {
@@ -13,6 +12,14 @@ const jsonObjects = {
         {
           intent: '',
           intent_text: '',
+          entities: [
+            {
+              start: 0,
+              end: 0,
+              value: '',
+              entity: '',
+            },
+          ],
         },
       ],
       utters: [
@@ -30,38 +37,44 @@ const jsonObjects = {
     },
   },
 };
+
 const joiObject = Joi.object().keys({
   rasa_nlu_data: Joi.object().keys({
     common_examples: Joi.object().keys({
-      utters: [Joi.object().keys({
-        utter: Joi.string(),
-        utter_name: Joi.string(),
-      })],
-      intents: [Joi.object().keys({
-        intents: [Joi.object().keys({
-          intent: Joi.string(),
-          intent_text: Joi.string(),
-          entites: [Joi.object().keys({
-            start: Joi.number(),
-            end: Joi.number(),
-            value: Joi.string(),
-            entity: Joi.string(),
-          }),
-          ],
-        })],
-      })],
-      stories: [
+      utters: Joi.array().items(
         Joi.object().keys({
-          utter_name: Joi.string(),
-          intent: Joi.string(),
-        }),
-      ],
+          utter: Joi.string().alphanum().min(3).required(),
+          utter_name: Joi.string().alphanum().min(3).required(),
+        }).required(),
+      ),
+      intents: Joi.array().items(
+        Joi.object().keys({
+          intent: Joi.string().required(),
+          intent_text: Joi.string().alphanum().min(3).required(),
+          entities: Joi.array().items(
+            Joi.object().keys({
+              start: Joi.number().required(),
+              end: Joi.number().required(),
+              value: Joi.string().alphanum().min(3).required(),
+              entity: Joi.string().alphanum().min(3).required(),
+            }),
+          ),
+        }).required(),
+      ),
+      stories: Joi.array().items(
+        Joi.object().keys({
+          utter_name: Joi.string().alphanum().min(3).required(),
+          intent: Joi.string().alphanum().min(3).required(),
+        }).required(),
+      ),
     }),
   }),
 });
 
 app.get('/rasa', (req, res) => {
-  res.json(testData);
+  fs.readFile(path.join(__dirname, '../testData.json'), (err, data) => {
+    res.json(JSON.parse(data));
+  });
 });
 
 app.post('/rasa', (req, res) => {
@@ -71,9 +84,10 @@ app.post('/rasa', (req, res) => {
     const keys = ['rasa_nlu_data', 'intents', 'stories', 'utters'];
     if (err) {
       for (let i = 0; i < keys.length; i += 1) {
-        if (i === 0 && !data.includes(keys[i])) {
+        if (i === 0 && !Object.prototype.hasOwnProperty.call(data, keys[i])) {
           data[keys[i]] = jsonObjects[keys[i]];
-        } else if (i > 0 && !data.rasa_nlu_data.common_examples.includes(keys[i])) {
+        } else if (i > 0
+          && !Object.prototype.hasOwnProperty.call(data.rasa_nlu_data.common_examples, keys[i])) {
           try {
             data.rasa_nlu_data.common_examples[
               keys[i]
@@ -91,11 +105,10 @@ app.post('/rasa', (req, res) => {
       throw firstErr;
     }
   });
-  fs.writeFile(path.join(__dirname), JSON.stringify(data), (err) => {
+  fs.writeFile(path.join(__dirname, '../testData.json'), JSON.stringify(data), (err) => {
     if (err) throw err;
+    res.json({ success: 'success' });
   });
-  res.json({ success: 'success' });
 });
-
 
 module.exports = app;
