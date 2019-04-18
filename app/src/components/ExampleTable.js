@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { Table, Input } from 'antd'
 import { connect } from 'react-redux'
 import ExampleEditor from './ExampleEditor'
-import TextEditor from './TextEditor'
+import IntentEditor from './IntentEditor'
 import Editor from './Editor'
 import * as actions from '../state/actions'
   ;
@@ -77,7 +77,7 @@ class ExampleTable extends Component {
         dataIndex: 'text',
         key: 'text',
         render: (_, example) => (
-          <TextEditor
+          <IntentEditor
             example={example}
             entityNames={entityNames}
           />

@@ -21,25 +21,25 @@ import {
 
 let exampleIDCounter = 0
 
-const createExample = ({ text = '', intent = '', utter = '', storie = '', entities = [] }, scope) => {
+const createExample = ({ text = '', utter = '', nameUtter = '', nameIntent = '', entities = [] }, scope) => {
   let returnJSON = {}
   switch (scope) {
     case 'intents':
       returnJSON = {
-        text, intent, entities, updatedAt: Date.now(),
+        nameIntent, text, entities, updatedAt: Date.now(),
         isExpanded: false,
         id: (++exampleIDCounter).toString(),
       }
       break;
     case 'utters':
       returnJSON = {
-        utter, updatedAt: Date.now(),
+        utter, nameUtter, updatedAt: Date.now(),
         id: (++exampleIDCounter).toString(),
       }
       break;
     case 'stories':
       returnJSON = {
-        storie, updatedAt: Date.now(),
+        nameUtter, nameIntent, updatedAt: Date.now(),
         id: (++exampleIDCounter).toString(),
       }
       break;
@@ -85,7 +85,6 @@ export default function reducer(state = INITIAL_STATE, action) {
         stories: ['intent', 'utter']
       }
       const update = pick(value, prop[className])
-      console.log(value)
       state = immutable.assign(
         state,
         `${className}.${getExampleIndex(id, className)}`,
@@ -149,21 +148,21 @@ export default function reducer(state = INITIAL_STATE, action) {
       return immutable.set(state, `idExampleInModal`, exampleUtters.id)
     }
     case OPEN_ADD_MODAL: {
-      const {number} = payload 
-      if (number === 1){
+      const {className} = payload 
+      if (className === 'intents'){
         const exampleIntents = createExample({}, "intents")
         state = immutable.push(state, "intents", exampleIntents)
-        state.modalClass = number
+        state.modalClass = className
         state = immutable.set(state, `idExampleInModal`, exampleIntents.id)
-      }else if (number === 2){
+      }else if (className === 'utters'){
         const exampleUtters = createExample({}, "utters")
         state = immutable.push(state, "utters", exampleUtters)
-        state.modalClass = number
+        state.modalClass = className
         state = immutable.set(state, `idExampleInModal`, exampleUtters.id)
-      }else if (number === 3){
+      }else if (className === 'stories'){
         const exampleStories = createExample({}, "stories")
         state = immutable.push(state, "stories", exampleStories)
-        state.modalClass = number
+        state.modalClass = className
         state = immutable.set(state, `idExampleInModal`, exampleStories.id)
       }
       return state

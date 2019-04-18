@@ -100,7 +100,7 @@ class TopBar extends Component {
         <Button
           style={styles.button}
           type='primary'
-          onClick={() => openAddModal(1)}
+          onClick={() => openAddModal('intents')}
           key={"intentButton"}
         >
           Add new intent
@@ -108,7 +108,7 @@ class TopBar extends Component {
         <Button
           style={styles.button}
           type='primary'
-          onClick={() => openAddModal(2)}
+          onClick={() => openAddModal('utters')}
           key={"utterButton"}
           >
           Add new utter
@@ -116,7 +116,7 @@ class TopBar extends Component {
           <Button
           style={styles.button}
           type='primary'
-          onClick={() => openAddModal(2)}
+          onClick={() => openAddModal('stories')}
           key={"storieButton"}
           >
           Add new storie
