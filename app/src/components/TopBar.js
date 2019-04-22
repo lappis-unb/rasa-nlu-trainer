@@ -52,7 +52,6 @@ class TopBar extends Component {
   }
   render() {
     const { filename, isUnsaved, save, openAddModal } = this.props
-
     const isOnline = true
     const fileButtons = isOnline
       ? (

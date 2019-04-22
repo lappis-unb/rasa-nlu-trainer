@@ -1,8 +1,8 @@
 // @flow
-import immutable from 'object-path-immutable'
-import testData from './testData.json'
-import isOnline from '../utils/isOnline'
-import pick from 'lodash/pick'
+import immutable from "object-path-immutable";
+import testData from "./testData.json";
+import isOnline from "../utils/isOnline";
+import pick from "lodash/pick";
 
 import {
   EDIT,
@@ -16,56 +16,68 @@ import {
   OPEN_ADD_MODAL,
   CLOSE_ADD_MODAL,
   SAVE_AND_CLOSE_ADD_MODAL,
-  RESET,
-} from './actions'
+  RESET
+} from "./actions";
 
-let exampleIDCounter = 0
+let exampleIDCounter = 0;
 
-const createExample = ({ intent = '', utter = '', nameUtter = '', nameIntent = '', entities = [] }, scope) => {
-  let returnJSON = {}
+const createExample = (
+  { intent = "", utter = "", nameUtter = "", nameIntent = "", entities = [] },
+  scope
+) => {
+  let returnJSON = {};
   switch (scope) {
-    case 'intents':
+    case "intents":
       returnJSON = {
-        nameIntent, intent, entities, updatedAt: Date.now(),
+        nameIntent,
+        intent,
+        entities,
+        updatedAt: Date.now(),
         isExpanded: false,
-        id: (++exampleIDCounter).toString(),
-      }
+        id: (++exampleIDCounter).toString()
+      };
       break;
-    case 'utters':
+    case "utters":
       returnJSON = {
-        utter, nameUtter, updatedAt: Date.now(),
-        id: (++exampleIDCounter).toString(),
-      }
+        utter,
+        nameUtter,
+        updatedAt: Date.now(),
+        id: (++exampleIDCounter).toString()
+      };
       break;
-    case 'stories':
+    case "stories":
       returnJSON = {
-        nameUtter, nameIntent, updatedAt: Date.now(),
-        id: (++exampleIDCounter).toString(),
-      }
+        nameUtter,
+        nameIntent,
+        updatedAt: Date.now(),
+        id: (++exampleIDCounter).toString()
+      };
       break;
+    default:
+      return returnJSON;
   }
-  return returnJSON
-}
+  return returnJSON;
+};
 const prepareExamples = (examples = [], scope) => {
-  return examples.map(example => createExample(example, scope))
-}
+  return examples.map(example => createExample(example, scope));
+};
 
 const INITIAL_STATE = {
-  filename: 'testData.json',
+  filename: "testData.json",
   originalSource: isOnline ? testData : null,
   intents: testData.rasa_nlu_data.common_examples.intents.map(e => createExample(e, "intents")),
   utters: testData.rasa_nlu_data.common_examples.utters.map(e => createExample(e, "utters")),
   stories: testData.rasa_nlu_data.common_examples.stories.map(e => createExample(e, "stories")),
   isUnsaved: false,
   selection: null,
-  idExampleInModal: null,
-}
+  idExampleInModal: null
+};
 export default function reducer(state = INITIAL_STATE, action) {
-  const { type, payload } = action
+  const { type, payload } = action;
 
-  const getExampleIndex = (_id, className="intents") => {
-    return state[className].findIndex(({ id }) => id === _id)
-  }
+  const getExampleIndex = (_id, className = "intents") => {
+    return state[className].findIndex(({ id }) => id === _id);
+  };
 
   switch (type) {
     case RESET: {
@@ -74,113 +86,99 @@ export default function reducer(state = INITIAL_STATE, action) {
         examples: [],
         isUnsaved: false,
         selection: null,
-        idExampleInModal: null,
-      }
+        idExampleInModal: null
+      };
     }
     case EDIT: {
-      const { id, value, className } = payload
+      const { id, value, className } = payload;
       const prop = {
-        intents: ['nameIntent', 'intent', 'entities'],
-        utters: ['utter', 'nameUtter'],
-        stories: ['nameIntent', 'nameUtter']
-      }
-      const update = pick(value, prop[className])
-      state = immutable.assign(
-        state,
-        `${className}.${getExampleIndex(id, className)}`,
-        { ...update, updatedAt: Date.now() },
-      )
-      return { ...state, isUnsaved: true }
+        intents: ["nameIntent", "intent", "entities"],
+        utters: ["utter", "nameUtter"],
+        stories: ["nameIntent", "nameUtter"]
+      };
+      const update = pick(value, prop[className]);
+      state = immutable.assign(state, `${className}.${getExampleIndex(id, className)}`, {
+        ...update,
+        updatedAt: Date.now()
+      });
+      return { ...state, isUnsaved: true };
     }
     case DELETE_EXAMPLE: {
-      const { id } = payload
-      state = immutable.del(
-        state,
-        `examples.${getExampleIndex(id)}`,
-      )
-      return { ...state, isUnsaved: true }
+      const { id } = payload;
+      state = immutable.del(state, `examples.${getExampleIndex(id)}`);
+      return { ...state, isUnsaved: true };
     }
     case SET_SELECTION: {
-      const { id, start, end } = payload
+      const { id, start, end } = payload;
       if (start === end) {
-        return state
+        return state;
       }
-      return immutable.set(state, `selection`, { idExample: id, start, end })
+      return immutable.set(state, `selection`, { idExample: id, start, end });
     }
     case FETCH_DATA: {
-      const { data, path } = payload
+      const { data, path } = payload;
       return {
         ...state,
         examplesIntents: prepareExamples(data.rasa_nlu_data.common_examples.intents, "intents"),
         examplesUtters: prepareExamples(data.rasa_nlu_data.common_examples.utters, "utters"),
         examplesStories: prepareExamples(data.rasa_nlu_data.common_examples.stories, "stories"),
         originalSource: data,
-        filename: path,
-      }
+        filename: path
+      };
     }
     case SAVING_DONE: {
       return {
         ...state,
-        isUnsaved: false,
-      }
+        isUnsaved: false
+      };
     }
     case EXPAND: {
-      const { id } = payload
+      const { id } = payload;
 
-      return immutable.set(
-        state,
-        `intents.${getExampleIndex(id)}.isExpanded`,
-        true,
-      )
+      return immutable.set(state, `intents.${getExampleIndex(id)}.isExpanded`, true);
     }
     case COLLAPSE: {
-      const { id } = payload
+      const { id } = payload;
 
-      return immutable.set(
-        state,
-        `intents.${getExampleIndex(id)}.isExpanded`,
-        false,
-      )
+      return immutable.set(state, `intents.${getExampleIndex(id)}.isExpanded`, false);
     }
     case SET_MODAL_ID: {
-      const exampleUtters = createExample({}, "utters")
-      state = immutable.push(state, "utters", exampleUtters)
-      return immutable.set(state, `idExampleInModal`, exampleUtters.id)
+      const exampleUtters = createExample({}, "utters");
+      state = immutable.push(state, "utters", exampleUtters);
+      return immutable.set(state, `idExampleInModal`, exampleUtters.id);
     }
     case OPEN_ADD_MODAL: {
-      const {className} = payload 
-      if (className === 'intents'){
-        const exampleIntents = createExample({}, "intents")
-        state = immutable.push(state, "intents", exampleIntents)
-        state.modalClass = className
-        state = immutable.set(state, `idExampleInModal`, exampleIntents.id)
-      }else if (className === 'utters'){
-        const exampleUtters = createExample({}, "utters")
-        state = immutable.push(state, "utters", exampleUtters)
-        state.modalClass = className
-        state = immutable.set(state, `idExampleInModal`, exampleUtters.id)
-      }else if (className === 'stories'){
-        const exampleStories = createExample({}, "stories")
-        state = immutable.push(state, "stories", exampleStories)
-        state.modalClass = className
-        state = immutable.set(state, `idExampleInModal`, exampleStories.id)
+      const { className } = payload;
+      if (className === "intents") {
+        const exampleIntents = createExample({}, "intents");
+        state = immutable.push(state, "intents", exampleIntents);
+        state.modalClass = className;
+        state = immutable.set(state, `idExampleInModal`, exampleIntents.id);
+      } else if (className === "utters") {
+        const exampleUtters = createExample({}, "utters");
+        state = immutable.push(state, "utters", exampleUtters);
+        state.modalClass = className;
+        state = immutable.set(state, `idExampleInModal`, exampleUtters.id);
+      } else if (className === "stories") {
+        const exampleStories = createExample({}, "stories");
+        state = immutable.push(state, "stories", exampleStories);
+        state.modalClass = className;
+        state = immutable.set(state, `idExampleInModal`, exampleStories.id);
       }
-      return state
-
-      
+      return state;
     }
     case CLOSE_ADD_MODAL: {
-      const { className } = payload
+      const { className } = payload;
       state = immutable.del(
         state,
-        `${className}.${getExampleIndex(state.idExampleInModal, className)}`,
-      )
-      return immutable.set(state, `idExampleInModal`, null)
+        `${className}.${getExampleIndex(state.idExampleInModal, className)}`
+      );
+      return immutable.set(state, `idExampleInModal`, null);
     }
     case SAVE_AND_CLOSE_ADD_MODAL: {
-      return immutable.set(state, `idExampleInModal`, null)
+      return immutable.set(state, `idExampleInModal`, null);
     }
     default:
-      return state
+      return state;
   }
 }
