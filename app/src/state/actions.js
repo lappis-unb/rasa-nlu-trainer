@@ -1,7 +1,7 @@
 // @flow
 const ROOT_PATH = process.env.NODE_ENV === 'production'
   ? '/'
-  : 'http://localhost:4321/'
+  : 'http://localhost:3030/rasa'
 
 export const RESET = 'RESET'
 export const reset = () => ({
@@ -32,16 +32,16 @@ export const fetchData = (path, data) => ({
   payload: { path, data }
 })
 export const loadData = () => async (dispatch) => {
-  const response = await fetch(`${ROOT_PATH}data`, {
-    method: 'POST',
+  const response = await fetch(`${ROOT_PATH}`, {
+    method: 'GET',
   })
   const json = await response.json()
-  dispatch(fetchData(json.path, json.data))
+  dispatch(fetchData("data.json", json))
 }
 
 export const SAVING_DONE = 'SAVING_DONE'
 export const save = (source) => async (dispatch) => {
-  const response = await fetch(`${ROOT_PATH}save`, {
+  const response = await fetch(`${ROOT_PATH}`, {
     method: 'POST',
     headers: {
       'Accept': 'application/json',

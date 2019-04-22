@@ -19,7 +19,6 @@ class Editor extends Component {
   }
   render() {
     const { example, source, style, placeholder, objectProps } = this.props
-    console.log(example[objectProps])
     return (
       <AutoComplete
         dataSource={source}

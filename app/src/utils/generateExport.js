@@ -31,5 +31,31 @@ export default function() {
     "rasa_nlu_data.common_examples",
     saveStateFile
   );
+  const { intents, utters, stories } = state;
+  intents.map(intent => {
+    delete intent.updatedAt;
+    delete intent.id;
+    delete intent.isExpanded;
+  });
+  utters.map(utter => {
+    delete utter.updatedAt;
+    delete utter.id;
+    delete utter.isExpanded;
+  });
+  stories.map(story => {
+    delete story.updatedAt;
+    delete story.id;
+    delete story.isExpanded;
+  });
+  const saveJSON = { rasa_nlu_data: { common_examples: { intents, utters, stories } } };
+  fetch("http://localhost:3030/rasa", {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(saveJSON)
+  });
+  console.log(state);
   return JSON.stringify(source, null, 2);
 }
