@@ -69,7 +69,7 @@ class TopBar extends Component {
             type={isUnsaved ? 'primary' : 'ghost'}
             style={styles.button}
             onClick={() => {
-              var blob = new Blob(
+              let blob = new Blob(
                 [generateExport()],
                 { type: 'text/plain;charset=utf-8' },
               )
