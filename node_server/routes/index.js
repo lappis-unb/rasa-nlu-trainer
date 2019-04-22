@@ -10,28 +10,28 @@ const jsonObjects = {
     common_examples: {
       intents: [
         {
-          intent: '',
-          intent_text: '',
+          intent: 'example',
+          intent_text: 'example',
           entities: [
             {
               start: 0,
               end: 0,
-              value: '',
-              entity: '',
+              value: 'example',
+              entity: 'example',
             },
           ],
         },
       ],
       utters: [
         {
-          utter: '',
-          utter_name: '',
+          utter: 'example',
+          utter_name: 'example',
         },
       ],
       stories: [
         {
-          intent: '',
-          utter_name: '',
+          intent: 'example',
+          utter_name: 'example',
         },
       ],
     },
@@ -45,8 +45,8 @@ const joiObject = Joi.object().keys({
         Joi.object().keys({
           utter: Joi.string().alphanum().min(3).required(),
           utter_name: Joi.string().alphanum().min(3).required(),
-        }).required(),
-      ),
+        }),
+      ).required(),
       intents: Joi.array().items(
         Joi.object().keys({
           intent: Joi.string().required(),
@@ -59,17 +59,17 @@ const joiObject = Joi.object().keys({
               entity: Joi.string().alphanum().min(3).required(),
             }),
           ),
-        }).required(),
-      ),
+        }),
+      ).required(),
       stories: Joi.array().items(
         Joi.object().keys({
           utter_name: Joi.string().alphanum().min(3).required(),
           intent: Joi.string().alphanum().min(3).required(),
-        }).required(),
-      ),
-    }),
-  }),
-});
+        }),
+      ).required(),
+    }).required(),
+  }).required(),
+}).required();
 
 app.get('/rasa', (req, res) => {
   fs.readFile(path.join(__dirname, '../testData.json'), (err, data) => {
