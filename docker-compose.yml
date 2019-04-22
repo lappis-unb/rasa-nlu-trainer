@@ -21,8 +21,7 @@ services:
       target: node
     restart: unless-stopped
     ports:
-      - 4321:4321
+      - 3030:3030
     volumes:
       - ./node_server/:/node_server/
       - /node_server/node_modules
-    command: node server.js -p 4321 -d true &!

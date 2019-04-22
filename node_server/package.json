@@ -2,24 +2,34 @@
   "name": "node_server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js -p 4321 -d true &!"
+    "start": "node_modules/.bin/eslint *.js routes/** && nodemon ./bin/www"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "findit": "^2.0.0",
     "fs": "0.0.1-security",
     "get-port": "^5.0.0",
+    "joi": "^14.3.1",
     "nodemon": "^1.18.11",
     "open": "^6.1.0",
     "path": "^0.12.7",
     "update-notifier": "^2.5.0",
     "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-flowtype": "^3.6.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-react": "^7.12.4"
   }
 }

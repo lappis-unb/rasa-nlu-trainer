@@ -9,11 +9,10 @@ RUN npm install
 EXPOSE 8080
 
 FROM node:10-jessie-slim as node
-
 WORKDIR /node_server
 COPY ./node_server /node_server
 RUN npm install
-EXPOSE 4321
+EXPOSE 3030
 
-CMD ["node", "server.js", "-p", "4321", "-d", "true", "&!"]
+CMD ["npm","start"]
 
