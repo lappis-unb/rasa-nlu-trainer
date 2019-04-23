@@ -1,24 +1,29 @@
 // @flow
 
 import React, { Component } from 'react';
-import { AutoComplete } from 'antd'
-import { connect } from 'react-redux'
-import * as actions from '../state/actions'
+import { AutoComplete } from 'antd';
+import { connect } from 'react-redux';
 import { object } from 'prop-types';
+import * as actions from '../state/actions';
 
 const mapActions = dispatch => ({
   edit: (idExample, update, className) => {
-    dispatch(actions.edit(idExample, update, className))
+    dispatch(actions.edit(idExample, update, className));
   },
-})
+});
 
 class Editor extends Component {
   handleIntentChange(value) {
-    const { edit, example, className, objectProps } = this.props
-    edit(example.id, { [objectProps]:value }, className)
+    const {
+      edit, example, className, objectProps,
+    } = this.props;
+    edit(example.id, { [objectProps]: value }, className);
   }
+
   render() {
-    const { example, source, style, placeholder, objectProps } = this.props
+    const {
+      example, source, style, placeholder, objectProps,
+    } = this.props;
     return (
       <AutoComplete
         dataSource={source}
@@ -27,10 +32,10 @@ class Editor extends Component {
         onSelect={value => this.handleIntentChange(value)}
         onChange={value => this.handleIntentChange(value)}
         placeholder={placeholder}
-        filterOption={(inputValue, option)=> option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
+        filterOption={(inputValue, option) => option.props.children.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1}
       />
-    )
+    );
   }
 }
 
-export default connect(null, mapActions)(Editor)
+export default connect(null, mapActions)(Editor);

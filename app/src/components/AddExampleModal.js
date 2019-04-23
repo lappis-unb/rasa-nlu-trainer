@@ -1,21 +1,23 @@
 // @flow
 
-import React, { Component } from "react";
-import { Modal, Tabs, Icon } from "antd";
-import { connect } from "react-redux";
-import EntityTable from "./EntityTable";
-import IntentEditor from "./IntentEditor";
-import TextEditor from "./TextEditor";
-import Editor from "./Editor";
-import * as actions from "../state/actions";
+import React, { Component } from 'react';
+import { Modal, Tabs, Icon } from 'antd';
+import { connect } from 'react-redux';
+import EntityTable from './EntityTable';
+import IntentEditor from './IntentEditor';
+import TextEditor from './TextEditor';
+import Editor from './Editor';
+import * as actions from '../state/actions';
 
-const mapState = state => {
-  const { intents, utters, stories, modalClass } = state;
+const mapState = (state) => {
+  const {
+    intents, utters, stories, modalClass,
+  } = state;
   return {
     intentCreate: intents.find(({ id }) => id === state.idExampleInModal),
     utterCreate: utters.find(({ id }) => id === state.idExampleInModal),
     storyCreate: stories.find(({ id }) => id === state.idExampleInModal),
-    modalCreate: modalClass
+    modalCreate: modalClass,
   };
 };
 
@@ -23,12 +25,12 @@ const mapActions = dispatch => ({
   close: () => {
     dispatch(actions.closeAddModal());
   },
-  saveAndClose: className => {
+  saveAndClose: (className) => {
     dispatch(actions.saveAndCloseAddModal(className));
   },
-  setModalId: className => {
+  setModalId: (className) => {
     dispatch(actions.setModalId(className));
-  }
+  },
 });
 
 class ExampleTable extends Component {
@@ -44,12 +46,12 @@ class ExampleTable extends Component {
       saveAndClose,
       setModalId,
       entityNames,
-      modalCreate
+      modalCreate,
     } = this.props;
 
     const modalRender = () => {
       let options;
-      if (modalCreate === "intents" && intentCreate) {
+      if (modalCreate === 'intents' && intentCreate) {
         options = (
           <div>
             <Editor
@@ -72,7 +74,7 @@ class ExampleTable extends Component {
             <EntityTable example={intentCreate} entityNames={entityNames} />
           </div>
         );
-      } else if (modalCreate === "utters" && utterCreate) {
+      } else if (modalCreate === 'utters' && utterCreate) {
         options = (
           <div>
             <TextEditor
@@ -94,7 +96,7 @@ class ExampleTable extends Component {
             />
           </div>
         );
-      } else if (modalCreate === "stories" && storyCreate) {
+      } else if (modalCreate === 'stories' && storyCreate) {
         options = (
           <div>
             <Editor
@@ -107,14 +109,14 @@ class ExampleTable extends Component {
               placeholder="Name Intent"
             />
             <Editor
-                example={storyCreate}
-                source={utters}
-                objectProps="nameUtter"
-                style={{ marginBottom: 5 }}
-                nameComponent="utter"
-                className="stories"
-                placeholder="Name Utter"
-              />
+              example={storyCreate}
+              source={utters}
+              objectProps="nameUtter"
+              style={{ marginBottom: 5 }}
+              nameComponent="utter"
+              className="stories"
+              placeholder="Name Utter"
+            />
             {/* <TextEditor
               object={storyCreate}
               style={{ marginBottom: 5 }}
@@ -151,5 +153,5 @@ class ExampleTable extends Component {
 
 export default connect(
   mapState,
-  mapActions
+  mapActions,
 )(ExampleTable);
