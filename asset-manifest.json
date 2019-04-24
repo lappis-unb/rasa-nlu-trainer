@@ -1,4 +1,13 @@
 {
-  "main.js": "static/js/main.46de9beb.js",
-  "main.js.map": "static/js/main.46de9beb.js.map"
+  "main.css": "/rasa-nlu-trainer/static/css/main.27f6b72c.chunk.css",
+  "main.js": "/rasa-nlu-trainer/static/js/main.164751a5.chunk.js",
+  "main.js.map": "/rasa-nlu-trainer/static/js/main.164751a5.chunk.js.map",
+  "runtime~main.js": "/rasa-nlu-trainer/static/js/runtime~main.dbf01a02.js",
+  "runtime~main.js.map": "/rasa-nlu-trainer/static/js/runtime~main.dbf01a02.js.map",
+  "static/js/2.70a9859c.chunk.js": "/rasa-nlu-trainer/static/js/2.70a9859c.chunk.js",
+  "static/js/2.70a9859c.chunk.js.map": "/rasa-nlu-trainer/static/js/2.70a9859c.chunk.js.map",
+  "index.html": "/rasa-nlu-trainer/index.html",
+  "precache-manifest.42a0343c5975eb2ce613c5bad817d552.js": "/rasa-nlu-trainer/precache-manifest.42a0343c5975eb2ce613c5bad817d552.js",
+  "service-worker.js": "/rasa-nlu-trainer/service-worker.js",
+  "static/css/main.27f6b72c.chunk.css.map": "/rasa-nlu-trainer/static/css/main.27f6b72c.chunk.css.map"
 }
