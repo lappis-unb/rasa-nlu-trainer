@@ -51,13 +51,13 @@ Use flags to inform the intents and stories folder path.
 
 Parser to intents 
 
-run `$ python src/intent_parser.py -i intents/`
+run `$ python tools/intent_parser.py -i intents/`
 
 This command will generate an json file called intents.json as default name.
 
 Parser to stories
 
-run `$ python src/stories_parser.py -i stories/`
+run `$ python tools/stories_parser.py -i stories/`
 
 This command will generate an json file called stories.json as default name.
 
