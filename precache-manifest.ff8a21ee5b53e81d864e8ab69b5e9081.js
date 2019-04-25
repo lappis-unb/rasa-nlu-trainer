@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/rasa-nlu-trainer/static/js/runtime~main.dbf01a02.js"
   },
   {
-    "revision": "84f1c820e520a2eef2cd",
-    "url": "/rasa-nlu-trainer/static/js/main.cd6fce92.chunk.js"
+    "revision": "c8afe7c455a38b00a05b",
+    "url": "/rasa-nlu-trainer/static/js/main.15c1d8d9.chunk.js"
   },
   {
     "revision": "722f19ea10c0e91ece67",
     "url": "/rasa-nlu-trainer/static/js/2.2c66206b.chunk.js"
   },
   {
-    "revision": "84f1c820e520a2eef2cd",
+    "revision": "c8afe7c455a38b00a05b",
     "url": "/rasa-nlu-trainer/static/css/main.27f6b72c.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/rasa-nlu-trainer/static/css/2.c11352b0.chunk.css"
   },
   {
-    "revision": "8b9b5d823b76151ffb9d1ffe3b0ee761",
+    "revision": "ce1cf2fead098e79d03c1028482145f2",
     "url": "/rasa-nlu-trainer/index.html"
   }
 ];
