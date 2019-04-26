@@ -60,16 +60,16 @@ class ContentParser:
             for intent in intent_file:
                 for intent_example in intent_file[intent]:
                     formated_intents = {}
-                    formated_intents['text'] = intent_example
-                    formated_intents['intent'] = intent 
+                    formated_intents['intent'] = intent_example
+                    formated_intents['intentName'] = intent 
                     formated_intents_list.append(formated_intents)
         return formated_intents_list
 
 
     def format_json(self, all_intents):
         data = {'rasa_nlu_data': {'commom_examples': []}}
-        intents = self.format_intents_to_json(all_intents)
-        data['rasa_nlu_data']['commom_examples'] = intents
+        intents = {'intents': self.format_intents_to_json(all_intents)}
+        data['rasa_nlu_data']['commom_examples'].append(intents)
         return data
 
     def generate_json_file(self, all_intents=None):

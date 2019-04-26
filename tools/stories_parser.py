@@ -60,16 +60,16 @@ class ContentParser:
             for stories in stories_file:
                 for stories_example in stories_file[stories]:
                     formated_stories = {}
-                    formated_stories['text'] = stories_example
-                    formated_stories['stories'] = stories 
+                    formated_stories['utterName'] = stories_example
+                    formated_stories['intentName'] = stories 
                     formated_stories_list.append(formated_stories)
         return formated_stories_list
 
 
     def format_json(self, all_stories):
-        data = {'rasa_nlu_data': {'stories_examples': []}}
-        stories = self.format_stories_to_json(all_stories)
-        data['rasa_nlu_data']['stories_examples'] = stories
+        data = {'rasa_nlu_data': {'common_examples': []}}
+        stories = {'stories': self.format_stories_to_json(all_stories)}
+        data['rasa_nlu_data']['common_examples'].append(stories)
         return data
 
     def generate_json_file(self, all_stories=None):
