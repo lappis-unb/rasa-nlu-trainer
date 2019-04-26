@@ -1,5 +1,8 @@
 // @flow
-const ROOT_PATH = process.env.NODE_ENV === "production" ? "/" : "http://localhost:3030/rasa";
+const ROOT_PATH =
+  process.env.NODE_ENV === "production"
+    ? `${process.env.REACT_APP_URL_API}/rasa`
+    : "http://localhost:3030/rasa";
 
 export const RESET = "RESET";
 export const reset = () => ({
@@ -34,7 +37,7 @@ export const loadData = () => async dispatch => {
     method: "GET"
   });
   const json = await response.json();
-  console.log(json)
+  console.log(json);
   dispatch(fetchData("data.json", json));
 };
 export const SET_STATE_API = "SET_STATE_API";

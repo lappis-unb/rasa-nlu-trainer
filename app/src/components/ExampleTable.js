@@ -50,7 +50,7 @@ class ExampleTable extends Component {
             example={example}
             source={intents}
             placeholder="intent"
-            objectProps="nameIntent"
+            objectProps="intentName"
           />
         ),
         onFilter: (value, example) =>

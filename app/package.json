@@ -87,11 +87,11 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build-demo": "react-app-rewired build",
-    "build": "react-app-rewired build && replace '\"/rasa-nlu-trainer/' '\"/' ./build/index.html",
-    "test": "react-app-rewired test --env=jsdom",
-    "publish-demo": "npm run build-demo && gh-pages -d build",
-    "publish-npm": "npm run build && npm publish"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "build": "REACT_APP_URL_API=https://api.tais.lappis.rocks react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
   },
   "preferGlobal": true,
   "homepage": "https://lappis-unb.github.io/rasa-nlu-trainer/",

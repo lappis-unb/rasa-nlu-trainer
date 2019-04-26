@@ -48,7 +48,7 @@ export default function() {
     delete story.isExpanded;
   });
   const saveJSON = { rasa_nlu_data: { common_examples: { intents, utters, stories } } };
-  fetch("http://localhost:3030/rasa", {
+  fetch(`${process.env.REACT_APP_URL_API}/rasa`, {
     method: "POST",
     headers: {
       Accept: "application/json",
