@@ -42,3 +42,27 @@ run `$ npm unlink && npm i -g rasa-nlu-trainer` to use the npm version again
 
 
 This project was bootstrapped with [Create React App](./CRA_README.md).
+
+#### using the parser 
+A parser of rasa intents and stories.
+
+Dependencies
+Inside tools path
+run `$ pip3 install -r requirements.txt`
+
+Usage
+Use flags to inform the intents and stories folder path.
+
+Parser to intents 
+
+run `$ python3 tools/intent_parser.py -i intents/`
+
+This command will generate an json file called intents.json as default name.
+
+Parser to stories
+
+run `$ python3 tools/stories_parser.py -i stories/`
+
+This command will generate an json file called stories.json as default name.
+
+
