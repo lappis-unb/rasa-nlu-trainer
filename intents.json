@@ -1,0 +1,5967 @@
+{
+  "rasa_nlu_data": {
+    "commom_examples": [
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como me cadastro no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como criar login no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como entrar no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "qual o endere\u00e7o do salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "o que eu preciso para cadastrar no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "me cadastre no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como realizar cadastro de usu\u00e1rios"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como realizar cadastro de usuario"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "cadastro"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "usuarios"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "como cadastrar o proponente via salic ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "o que devo fazer para cadastrar um proponente ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "cadastro de proponente ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "como fazer cadastro de proponente?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "como fazer cadastro de um proponente?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "cadastrar proponente"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "cadastro de proponente"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "como fa\u00e7o para cadastrar um proponente?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "como realizar cadastro de proponentes"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "n\u00e3o me recordo da senha de acesso"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "esqueci a senha do salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como recuperar senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "recupera\u00e7\u00e3o de senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "perdi minha senha do salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "esqueci minha senha no salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "gostaria de saber como mudar minha senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "mudan\u00e7a de senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como realizo a mudan\u00e7a de senha?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como mudo a senha?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como troco minha senha?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "esqueci a senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "perdi minha senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "recuperar senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "mudar senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "senha"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "sobre erros de sistema"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "erros do salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "erro no salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "problemas de sistema"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "problemas no salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "erros salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "problemas salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "erros"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "perdi minhas altera\u00e7\u00f5es na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "n\u00e3o salvou minhas altera\u00e7\u00f5es na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "proposta n\u00e3o foi salva"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "altera\u00e7\u00e3o n\u00e3o foi salva ap\u00f3s fechar"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "o salic n\u00e3o salvou minhas altera\u00e7\u00f5es na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "houve um erro ao gravar minha proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "salic n\u00e3o salvou minha proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "n\u00e3o salvou minha proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "n\u00e3o foi salva"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "erro ao salvar proposta"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "minha planilha sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "minha planilha desapareceu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "n\u00e3o acho minha planilha"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "n\u00e3o encontro minha planilha"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha desapareceu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "como recuperar minha planilha que sumiu?"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "a planilha or\u00e7ament\u00e1ria sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "a planilha or\u00e7ament\u00e1ria n\u00e3o aparece"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "perdi a planilha or\u00e7ament\u00e1ria"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha desapareceu"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "solicita\u00e7\u00e3o de v\u00ednculo pendente"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "o sistema acusou como solicita\u00e7\u00e3o de v\u00ednculo pendente"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "vinculo um cpf a um cnpj?"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "vincular cpf cnpj"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar cpf a pessoa jur\u00eddica"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar pessoa fisica a pessoa jur\u00eddica"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar pessoa fisica a cnpj"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar pessoa f\u00edsica"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "vincular cpf"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "n\u00e3o consigo achar minha proposta no sistema"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "como encontrar a minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "n\u00e3o sei achar minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "n\u00e3o acho minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "n\u00e3o consigo buscar minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "n\u00e3o encontro minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "encontrar proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "perdi a proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "instru\u00e7\u00f5es de preenchimento"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "quero preencher proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "instruir preenchimento"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "preencher proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "como preencho uma proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "como preencher uma proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "como preencher propostas"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "preencher proposta"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "campo custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "como preencher o campo custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "o que colocar no custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "prencher custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "custo auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastrar as rubricas de advogado e contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastro de rubricas de advogado"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastro de rubricas de contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "incluir rubricas"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "rubricas de contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "rubricas de advogado"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "como enviar rubricas de advogados"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastrar rubricas"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastro de r\u00fabricas"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "rubricas"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "r\u00fabricas"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ultrapassar o valor do ingresso"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "n\u00e3o irei comercializar ingressos"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ingresso n\u00e3o ultrapassa o valor citado"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "n\u00e3o vou comercializar ingressos"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ingresso n\u00e3o ultrapassa o m\u00e1ximo por benefici\u00e1rio"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "meu ingresso ultrapassa o valor permitido"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "n\u00e3o vou vender ingresso no meu projeto"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "valor do ingresso excedeu o permitido"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "como calcula o valor do ingresso"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "o ingresso do evento pode ser gratuito"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "valor do ingresso"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular uma proposta ao cpf do respons\u00e1vel"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular proposta ao cpf"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "como vincular proposta a pessoa fisica"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular pessoa f\u00edsica e proposta"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular proposta a pessoa"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vinculo de proposta"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular proposta"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "v\u00ednculo de proposta"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "ag\u00eancia banc\u00e1ria inv\u00e1lida"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "o sistema indica ag\u00eancia inv\u00e1lida"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "cadastrar minha ag\u00eancia banc\u00e1ria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "como eu cadastro a ag\u00eancia"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "o campo de ag\u00eancia possui h\u00edfen"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "qual o formato do campo de ag\u00eancia banc\u00e1ria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "deu erro ao cadastrar a ag\u00eancia"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "tenho duvidas sobre o formato do campo de agencia bancaria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "como \u00e9 o formato do campo da ag\u00eancia banc\u00e1ria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "qual banco"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "cadastrar ag\u00eancia banc\u00e1ria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "campo de ag\u00eancia"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "ag\u00eancia inv\u00e1lida"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "cadastro de ag\u00eancia"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "como cadastrar minha ag\u00eancia"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "agencia bancaria"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que \u00e9 [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que significa [ruane](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Explique a [lei ruan\u00ea](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que \u00e9 [lei ruanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que significa [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Explique a [lei ruane](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que \u00e9 [lei rouane](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que significa [lei ruanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Explique a [lei ruan\u00ea](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que \u00e9 [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que significa [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Explique a [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que \u00e9 [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "o que significa [lei rouan\u00ea](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Explique a [lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "fale sobre a [lei ruan\u00ea](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "[lei rouanet](lei_rouanet)"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Lei de Incentivo a Cultura"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Gostaria de saber curiosidades sobre a lei"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "como funciona a lei rounet?"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "Lei Rouanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "Lei de Incentivo a Cultura"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "ruane"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "ruan\u00ea"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "ruanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "rouane"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "rouan\u00ea"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "Lei ruane"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "Lei ruan\u00ea"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei ruanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei rouane"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei rouan\u00ea"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei adnet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode se inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode participar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode submeter projetos"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode apresentar projetos"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode apresentar proposta cultural"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode apresentar proposta"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode propor projetos via lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode cadastrar projetos lei de incentivo"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode se cadastrar na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode iniciar um projeto na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode se aplicar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode propor"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem n\u00e3o pode participar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero participar da lei"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero me tornar um proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero me inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "posso me inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "posso ser preponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "posso inscrever uma proposta como pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "eu posso usar a lei"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "eu posso participar da lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "o proponente pode ser pessoa f\u00edsica ou jur\u00eddica"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "o proponente pode ser pessoa fisica ou juridica"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "parentes de proponente podem apresentar projetos"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "parentes podem propor projetos"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "pessoa f\u00edsica pode ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quais projetos se encaixam na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "qualquer empresa pode apresentar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "qualquer pessoa pode apresentar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "qualquer segmento cultural pode propor um projeto na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "qual tipo de projeto pode ser apresentado na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como pessoa fisica eu posso inscrever uma proposta"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como me inscrever"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como me tornar proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "\u00e9 necess\u00e1rio comprovar experi\u00eancia cultural para ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "minha empresa pode ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "mei pode ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "tenho uma banda de musica posso propor um projeto"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "agente publico pode enviar propostas"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "elegibilidade"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "inscrever"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "participar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "usar a lei"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto dinheiro a lei movimenta"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto dinheiro a lei rouanet arrecada"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "de onde vem o dinheiro da lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "de onde vem o dinheiro usado na Lei"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o dinheiro da lei rouanet \u00e9 p\u00fablico"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "por que os cidad\u00e3os tem que pagar pelos projetos"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "a lei rouanet usa dinheiro de empresas"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "eu como cidad\u00e3o posso contribuir para um projeto"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto a lei ja arrecadou"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o dinheiro da lei \u00e9 privado ou p\u00fablico"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "como funciona a isen\u00e7\u00e3o fiscal"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "como funciona o recolhimento de dinheiro para os projetos"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto custa isso pro governo"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "O Minist\u00e9rio da cultura \u00e9 que d\u00e1 o dinheiro?"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o ministerio da dinheiro"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o Minc da dinheiro para lei"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "dinheiro"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadou"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadar"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadado"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "isen\u00e7\u00e3o fiscal"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "isencao fiscal"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "pagar"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "de onde vem"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quem paga"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quem patrocina"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "pec\u00fania"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "capital"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "tem beneficio para quem incentiva projeto"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "tem algum benef\u00edcio em incentivar projetos"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "Quais s\u00e3o as vantagens de ter seu projeto incentivado"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "que tipo de beneficios recebe ao incentivar"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "que beneficios tem para quem incentiva"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "um incentivador pode receber beneficio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "qual \u00e9 a vantagem de incentivar"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais as vantagens de ser incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais as vantagens para o patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais os beneficios de ser incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais os beneficios de um patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "como financiar um projeto cultural"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "empresas ganham alguma coisa ajudando meus projetos"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "incentivo fiscal federal"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "beneficiados"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "benef\u00edcio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patroc\u00ednio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patrocinio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "vantagem"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "incentivadores de projetos podem deduzir quanto de impostos de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "quanto de imposto de renda incentivadores conseguem deduzir de impostos"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual valor um incentivador consegue deduzir de imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "caso eu incentive um projeto quanto eu vou abater do meu IR"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "quanto \u00e9 o abatimento no IR caso haja algum incentivo"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual a porcentagem do imposto que vou abater ap\u00f3s incentivar projetos"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual \u00e9 o desconto que recebo no IR ao incentivar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual a dedu\u00e7\u00e3o de imposto de renda para incentivadores"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "se eu incentivar eu vou ter dedu\u00e7\u00e3o no meu imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "sou incentivador quanto posso receber como dedu\u00e7\u00e3o de imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "imposto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "dedu\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "deduzir"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "inferir"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "porcentagem"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "desconto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "abatimento"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "abater"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "taxa"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "inse\u00e7\u00e3o fiscal"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "insecao fiscal"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "isencao"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "isen\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos foram aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos foram incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos participaram"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos passaram pela lei"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos usam a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos ja tiveram incentivo"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos a lei rouanet aprovou"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantidade de projetos incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantidade de projetos aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "qual estatistica de projetos participantes"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "estatistica de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos que captaram recursos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos participantes"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos agraciados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos em execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "media de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "numero de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Quais empresas podem se beneficiar ao apoiar projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Que tipos de empresas podem se beneficiar ao apoiar projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Apoiando projetos culturais, qualquer empresa se beneficia"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Empresas que se beneficiam ao apoiar projeto culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "como pessoa fisica como posso patrocinar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "quem pode patrocinar um proejto"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Quem pode incentivar um proejto cultural"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Quem pode incentivar projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "qual o crit\u00e9rio de elegibilidade para pessoas jur\u00eddicas"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "toda empresa pode usar a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "tem alguma exece\u00e7\u00e3o para uma empresa n\u00e3o utilizar a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "quais a regras de elegibilidade no caso de empresas"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "empresa"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "elegibilidade como pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "participa\u00e7\u00e3o empresa"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "corpora\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "organiza\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "firma"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "estabelecimento"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "institui\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "firma"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "companhia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "quero denunciar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "quero registrar uma denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "como fa\u00e7o uma denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "como funciona a denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "qual o processo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "uso do dinheiro de forma ilegal"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "tenho um projeto para denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "identifiquei uma irregularidade"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "tem algo errado no projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "gostaria de saber como denunciar"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denuncia via ouvidoria"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar fraude"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar dirigente"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "dinheiro ilegal"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "dinheiro indevido"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "processo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "mecanismo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "registrar denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "projeto ilegal"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "como Den\u00fancia de projetos"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente autor do projeto \u00e9 remunerado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "ha limite para remunera\u00e7\u00e3o do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "existe remunera\u00e7\u00e3o para o proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "quanto e a remunera\u00e7ao do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente recebe algo"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente ganha alguma coisa"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "qual o valor que recebe o proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente tem remuneracao"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente recebe um salario"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente tem direito a honor\u00e1rios"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "qual limite para Remunera\u00e7\u00e3o do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "quanto o proponente pode se remunerar"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "qual a remunera\u00e7\u00e3o do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "remunera\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "remunerado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "honor\u00e1rio"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "sal\u00e1rio"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "pagamento"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "valor"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "recebe"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "ordenado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "rendimento"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "os ingressos podem ser comercializados"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "h\u00e1 um limite de pre\u00e7o a ser executado por produto realizado"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "por quanto devo vender os ingressos do meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como funciona a comercializa\u00e7\u00e3o de ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual deve ser o pre\u00e7o dos ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como estabelecer pre\u00e7os de ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "h\u00e1 um limite de pre\u00e7o das entradas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual o limite de valor das entradas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "venda de ingresso"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "valor da entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "comercializa\u00e7\u00e3o do ingresso"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como vender a entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual deve ser o pre\u00e7o da entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "por qual valor devo vender a entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "pode ter entradas gratuitas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como devo distribuir os ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "quantos ingressos podem ser de gra\u00e7a"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "h\u00e1 um limite de pre\u00e7o das entradas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual o limite de valor das entradas"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "\u00e9 poss\u00edvel que o patrocinador fa\u00e7a a prospec\u00e7\u00e3o da sua marca em um projeto realizado com incentivo fiscal"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como o patrocinador pode ativar a sua marca no projeto"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "em que condi\u00e7\u00f5es a marca do patrocinador pode ser divulgada"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "o patrocinador pode promover a sua marca"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a marca do patrcinador pode ser promovida"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a marca do patrocinador pode ser divulgada"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como o patrocinador pode usar o projeto para promover a sua marca"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a logo do patrocinador pode ser divulgada"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "posso divulgar a logo do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a logo do patrocinador pode ficar visivel"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "posso colocar a logo do patrocinador no banner"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a marca do patrocinador pode ser divulgada junto com o projeto"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "a logo do patrocinador pode ser associada ao projeto"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como deve ser feita a divulga\u00e7\u00e3o da marca do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como a logo do patrocinador deve ser divulgada"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como promover a logo do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "h\u00e1 limites para a promo\u00e7\u00e3o da marca do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como a marca do patrocinador deve ser promovida"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "h\u00e1 regras para a divulga\u00e7\u00e3o da marca do patrocinador no projeto"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "como a marca do patrocinador deve aparecer na divulga\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "marca"
+      },
+      {
+        "intent": "lei_rouanet_promocao_de_marca",
+        "text": "divulgar marca"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- quais os valores para pagamento de cach\u00eas em projetos realizados com incentivo fiscal"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- h\u00e1 limites nos valores de pagamentos de cach\u00eas"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- existe limite de pagamento de cach\u00ea"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- qual o limite de pagamento de cach\u00eas"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- quanto posso dar de cache para os artitas"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- posso dar quanto de cache para meus funcionarios"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- como funciona o pagamento de cache"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- pagamento de cache para artista solo"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- quanto cada artista do grupo pode receber de cache"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- existe limite de pagamento para artistas"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- valor de pagamento para artista solo e grupos artisticos"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- quanto cada artista da pe\u00e7a pode receber"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- valor cache"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- pagamento cach\u00ea"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- limite de cache"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- cache artista"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- cach\u00ea projeto"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- pagamento artista solo"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- cache orquestra"
+      },
+      {
+        "intent": "lei_rouanet_valores_pagamento_caches",
+        "text": "- limite cache artista solo"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- quais as etapas de aprova\u00e7\u00e3o de um projeto"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- Andamento do projeto"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- o que tenho que fazer pra aprovar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- que passos tenho que fazer durante a cria\u00e7\u00e3o do projeto"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- o que eu tenho que fazer pra ser aprovado na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- quais sao os passos pra mandar um projeto para avaliacao"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- como faco pra aprovar um projeto no salic"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- quero mandar um projeto na lei rouanet, o que eu tenho que fazer"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- como funciona o processe de analise da proposta"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- por onde a proposta passa para ser aprovada"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- quem analisa a proposta de projeto ate a decis\u00e3o final"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- etapas projeto"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- passos submissao"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- decisao final proposta"
+      },
+      {
+        "intent": "lei_rouanet_etapas_aprovacao_projeto",
+        "text": "- etapas analise proposta"
+      },
+      {
+        "intent": "lei_rouanet_apresentacao_de_proposta",
+        "text": "- #apresenta\u00e7\u00e3odeproposta"
+      },
+      {
+        "intent": "lei_rouanet_apresentacao_de_proposta",
+        "text": "- #apresentcaodeproposta"
+      },
+      {
+        "intent": "lei_rouanet_apresentacao_de_proposta",
+        "text": "- apresenta\u00e7\u00e3odeproposta"
+      },
+      {
+        "intent": "lei_rouanet_apresentacao_de_proposta",
+        "text": "- apresentcaodeproposta"
+      },
+      {
+        "intent": "lei_rouanet_analise_de_admissibilidade",
+        "text": "- #an\u00e1lisedeadmissibilidade"
+      },
+      {
+        "intent": "lei_rouanet_analise_de_admissibilidade",
+        "text": "- #analisedeadmissibilidade"
+      },
+      {
+        "intent": "lei_rouanet_analise_de_admissibilidade",
+        "text": "- an\u00e1lisedeadmissibilidade"
+      },
+      {
+        "intent": "lei_rouanet_analise_de_admissibilidade",
+        "text": "- analisedeadmissibilidade"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- #an\u00e1liset\u00e9cnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- #an\u00e1lisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- #analisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- #analiset\u00e9cnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- #analisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- an\u00e1liset\u00e9cnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- an\u00e1lisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- analisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- analiset\u00e9cnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_tecnica",
+        "text": "- analisetecnica"
+      },
+      {
+        "intent": "lei_rouanet_analise_pela_cnic",
+        "text": "- #an\u00e1lisepelacnic"
+      },
+      {
+        "intent": "lei_rouanet_analise_pela_cnic",
+        "text": "- #analisepelacnic"
+      },
+      {
+        "intent": "lei_rouanet_analise_pela_cnic",
+        "text": "- an\u00e1lisepelacnic"
+      },
+      {
+        "intent": "lei_rouanet_analise_pela_cnic",
+        "text": "- analisepelacnic"
+      },
+      {
+        "intent": "lei_rouanet_decisao_final",
+        "text": "- #decis\u00e3ofinal"
+      },
+      {
+        "intent": "lei_rouanet_decisao_final",
+        "text": "- #decisaofinal"
+      },
+      {
+        "intent": "lei_rouanet_decisao_final",
+        "text": "- decis\u00e3ofinal"
+      },
+      {
+        "intent": "lei_rouanet_decisao_final",
+        "text": "- decisaofinal"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- tem valor maximo de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- qual e o valor maximo de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- minha proposta pode atingir qual valor"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- maior valor para um projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- maior valor de um projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- posso ter quantas propostas apresentadas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantos projetos posso ter"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- tem limite de abertura de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantos projetos posso ter em meu nome"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- ha um valor maximo por projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- existe valor maximo para minha proposta"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- meu projeto pode chegar a que valor"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor maximo de projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor maximo de proposta"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantidade maxima de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantidade maxima de propostas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- total de projetos em meu nome"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- Quantos projetos o proponente pode inscrever"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor maximo por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantidade maxima"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor maximo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantidade por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- limite de projetos por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- limite de projetos por proponente"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- ultrapassar o limite"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- limite pode ser ultrapassado"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- quantidade m\u00e1xima de projetos pode ser ultrapassada"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- ultrapassar limite de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- aumentar limite de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- valor minimo de projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- Valor minimo pra projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- projeto valor m\u00ednimo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- qual e o valor minimo pra projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "- qual e o valor minimo de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- MEI"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- sou uma pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- sobre pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- sou um artista"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- microempresario individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- primeira op\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- primeiro t\u00f3pico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- se encaixa na 1"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- um"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- de pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- op\u00e7\u00e3o um"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "- categoriga um"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- sou uma pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- sou empresario individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- empresario individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- empresa individual de responsabilidade limitada"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- EIRELI"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- segunda op\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- segundo t\u00f3pico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- sociedade limitada"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- acho que na 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- op\u00e7\u00e3o 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "- na segunda"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- terceira op\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- terceiro t\u00f3pico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- todas as opcoes"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- geral"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- quero saber de tudo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- todas as empresas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- sobre os dois perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- escolha 3"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- na 3"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- op\u00e7\u00e3o tr\u00eas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- tr\u00eas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- sobre todos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- os dois perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- sobre todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "- de todos"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como \u00e9 feita a divulga\u00e7\u00e3o de patroc\u00ednio"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como e feita a divulgacao de patrocinio"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como promover marca do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como promover minha marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como fazer promo\u00e7\u00e3o de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como fazer promocao de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como fazer divulga\u00e7\u00e3o de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como fazer divulgacao de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "como divulgar marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "promover marca do patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "promo\u00e7\u00e3o de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "promocao de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulgacao de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulga\u00e7\u00e3o de marca"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "marcas e produtos"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulga\u00e7\u00e3o de patroc\u00ednio"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulgacao de patrocinio"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "prospec\u00e7\u00e3o comercial"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "prospeccao comercial"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulga\u00e7\u00e3o"
+      },
+      {
+        "intent": "lei_rouanet_divulgacao_patrocinio",
+        "text": "divulgacao"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus parentes podem incentivar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus pais e tios podem incentivar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "tem problema parentes incentivarem projetos"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "tenho parentes que desejam incentivar meus projetos"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "parentes incentivando meus projetos"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "Parentes pode participar do mesmo projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meu irm\u00e3o ou irm\u00e3, tio ou tia, primo ou prima, m\u00e3e ou pai incentivar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "minha irm\u00e3 quer incetivar meu projeto tem problema"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meu projeto pode ser incentivado pela minha fam\u00edlia"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus familiares podem incentivar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "parentes podem ser patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "quero saber se meus parentes podem ajudar a financiar o meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivado"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivo"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "familiares"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "fam\u00edlia"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "parente"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "ajudar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "financiar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "estimular"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "pais"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "o que \u00e9 democratiza\u00e7\u00e3o do acesso e forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "o que \u00e9 democratiza\u00e7\u00e3o ao acesso"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "o que \u00e9 forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "democratiza\u00e7\u00e3o de acesso forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "forma\u00e7\u00e3o de plateia e democratiza\u00e7\u00e3o do acesso"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "\u00e9 obrigat\u00f3rio realizar a forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "\u00e9 obrigat\u00f3ria realizar a forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "\u00e9 necess\u00e1rio a forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "como funciona a democratiza\u00e7\u00e3o do acesso"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "democratiza\u00e7\u00e3o de acesso \u00e0 cultura"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "democratiza\u00e7\u00e3o e plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "democratiza\u00e7\u00e3o de acesso"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "obrigatoriedade de forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "obrigatoriedade de democratiza\u00e7\u00e3o de acesso"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "realizar forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "promover o acesso cultural"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "promover acesso \u00e0 cultura"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "forma\u00e7\u00e3o de plateia"
+      },
+      {
+        "intent": "lei_rouanet_democratizacao",
+        "text": "democratizacao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "abestado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "anus"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "\u00e2nus"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "babaca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "babaovo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "baba-ovo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "baitola"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "baranga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bebum"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "besta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bicha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bixa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bla,bl\u00e1,bla,bla"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bla,bl\u00e1,bl\u00e1,bl\u00e1"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "blefando"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "blefe"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boazuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boba"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boboca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bobao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bobinha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boceta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boc\u00f3"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boiola"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "boquete"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bosseta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bosta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bostana"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "brecha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "brexa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "brioco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "brocha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bronha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "broxa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "buceta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bunda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "bunduda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "burra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "busseta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cabe\u00e7a chata"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cachorra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cachorro"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cadela"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "caga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cagado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cagao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cag\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cagona"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "canalha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cara de pau"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "caralho"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "caraio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "carni\u00e7a"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "casseta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cassete"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "charlatanismo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "charlatao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "charlat\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chatice"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chato"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chato demais"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "checheca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chereca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chifruda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chifrudo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chochota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chupada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "chupado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cocaina"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "coca\u00edna"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "coco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "coc\u00f4"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "corna"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "corno"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cornuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cornudo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cretina"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cretino"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cu"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "c\u00fa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cu"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "culhao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "culh\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "culh\u00f5es"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "curalho"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cuzao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cuz\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cuzuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "cuzudo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "debil"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "debiloide"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "demonio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "dem\u00f4nio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "desgracado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "desgra\u00e7ada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "desgracados"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "desgra\u00e7ados"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "doida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "doido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "egua"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "\u00e9gua"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "embromation"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "engana\u00e7\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "enganando"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "enganosa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "escrota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "escroto"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "espertinho"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "esporrada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "esporrado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "esporro"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estelionatario"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estelionat\u00e1rio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estelionato"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estupida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "est\u00fapida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estupidez"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "estupido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "est\u00fapido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fake"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fdp"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fedida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fedido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fedor"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fedorenta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feia"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feiosa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feioso"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feioza"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "feiozo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fela"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "filho da puta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fiof\u00f3"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "foda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fodao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fod\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fode"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fodida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fodido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fornica"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fudecao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fude\u00e7\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fudendo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fudida"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fudido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fulera"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "fuleragem"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "golpista"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "gonorrea"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "gonorreia"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "gosmenta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "gosmento"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "idiota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "idiotas"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "idiotice"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "imbecil"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "inferno"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "iscrota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "iscroto"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "kenga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ladra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ladrao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ladr\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ladroeira"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ladrona"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "lalau"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "leprosa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "leproso"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "lorota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ludibriacao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ludibria\u00e7\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ludibriar"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "macaca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "macaco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "machona"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "machorra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "malandragem"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "malandro"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "manguaca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mangua\u00e7a"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "masturba"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "meleca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "merda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mija"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mijada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mijado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mijo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "miser\u00e1vel"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mocrea"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mocr\u00e9a"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mocreia"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mocr\u00e9ia"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mondronga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "mondrongo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "nadega"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "nojeira"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "nojenta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "nojento"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "nojo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "otaria"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ot\u00e1ria"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "otario"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ot\u00e1rio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "otarios"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ot\u00e1rios"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "paspalha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "paspalhao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "paspalh\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "paspalho"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "p\u00e1u"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pau"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "peia"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "peido"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pemba"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "penis"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "p\u00eanis"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "perereca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "peru"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "per\u00fa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pica"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "picao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pic\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "picareta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "picareta!"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pilantra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pilantragem"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "piranha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "piroca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "piroco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "piru"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "porra"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "pqp"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "prega"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "prostibulo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "prost\u00edbulo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "prostituta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "prostituto"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "punheta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "punhetao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "punhet\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "puta"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "puto"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "puxasaco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "puxa-saco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "quenga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rab\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabudao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabud\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabudo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rabudona"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "racha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachadao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachad\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachadinha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachadinho"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rachado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ramela"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rapariga"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "remela"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "retardada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "retardado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "ridicula"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rid\u00edcula"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rid\u00edculo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rola"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rolinha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "rosca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "sacana"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "sacanagem"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "saco"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "safada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "safado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "safados"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "salafrario"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "salafr\u00e1rio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "sapatao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "sapat\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "sifilis"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "s\u00edfilis"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "siririca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tarada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tarado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "testuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tezao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tez\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tezuda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tezudo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "toma no cu"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "tomar no cu"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "trocha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "trolha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "troucha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "trouchas"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "trouxa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "trouxas"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "troxa"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vaca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vagabunda"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vagabundo"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "veada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "veadao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vead\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "veado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "verme"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "viada"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "viadao"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "viad\u00e3o"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "viado"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "viados"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vigario"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "vig\u00e1rio"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xana"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xaninha"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xavasca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xerereca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xexeca"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xibiu"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xibumba"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xochota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xota"
+      },
+      {
+        "intent": "expressoes_indesejadas",
+        "text": "xoxota"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "onde est\u00e1 o diheiro"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "onde est\u00e1 o pablo vittar"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "vagabundos"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bandidos"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "corrup\u00e7\u00e3o"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "deus \u00e9 fiel"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "qual \u00e9 o seu sexo"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "voc\u00ea esta aonde?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "voce torce pra qual time"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "como esta o tempo"
+      },
+      {
+        "intent": "despedir",
+        "text": "Tchau obrigada"
+      },
+      {
+        "intent": "despedir",
+        "text": "Tchau"
+      },
+      {
+        "intent": "despedir",
+        "text": "at\u00e9 logo"
+      },
+      {
+        "intent": "despedir",
+        "text": "namaste"
+      },
+      {
+        "intent": "despedir",
+        "text": "sayonara"
+      },
+      {
+        "intent": "despedir",
+        "text": "at\u00e9 mais"
+      },
+      {
+        "intent": "despedir",
+        "text": "at\u00e9 breve"
+      },
+      {
+        "intent": "despedir",
+        "text": "falou, valeu"
+      },
+      {
+        "intent": "despedir",
+        "text": "flw vlw"
+      },
+      {
+        "intent": "despedir",
+        "text": "blza"
+      },
+      {
+        "intent": "despedir",
+        "text": "blz"
+      },
+      {
+        "intent": "despedir",
+        "text": "valeu"
+      },
+      {
+        "intent": "despedir",
+        "text": "massa"
+      },
+      {
+        "intent": "despedir",
+        "text": "de boa"
+      },
+      {
+        "intent": "despedir",
+        "text": "obrigada"
+      },
+      {
+        "intent": "despedir",
+        "text": "obrigado"
+      },
+      {
+        "intent": "despedir",
+        "text": "obj"
+      },
+      {
+        "intent": "despedir",
+        "text": "obrigada, tais"
+      },
+      {
+        "intent": "despedir",
+        "text": "tais, obrigado"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ol\u00e1"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oiee"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi tais"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola tais, tudo bom"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola tais, que saudade de vc"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi tais saudades"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, como vai voc\u00ea"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "posso falar com voce"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "pode me tirar uma duvida"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "gostaria de tirar uma duvida"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa noite"
+      },
+      {
+        "intent": "elogios",
+        "text": "Tais, voc\u00ea \u00e9 muito educada!"
+      },
+      {
+        "intent": "elogios",
+        "text": "Adorei"
+      },
+      {
+        "intent": "elogios",
+        "text": "Me ajudou muito"
+      },
+      {
+        "intent": "elogios",
+        "text": "vc eh linda"
+      },
+      {
+        "intent": "afirmar",
+        "text": "se n\u00e3o for incomodo"
+      },
+      {
+        "intent": "afirmar",
+        "text": "claro que sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "posso sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sei bastante"
+      },
+      {
+        "intent": "afirmar",
+        "text": "preenchi sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria de saber mais"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria de mais detalhes"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ja preenchi uma proposta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sim, preenchi minha proposta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "quero"
+      },
+      {
+        "intent": "afirmar",
+        "text": "por favor"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ja"
+      },
+      {
+        "intent": "afirmar",
+        "text": "j\u00e1"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ok"
+      },
+      {
+        "intent": "afirmar",
+        "text": "claro"
+      },
+      {
+        "intent": "afirmar",
+        "text": "confirmo"
+      },
+      {
+        "intent": "afirmar",
+        "text": "mais ou menos"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o sei onde a minha pergunta se encaixa"
+      },
+      {
+        "intent": "negar",
+        "text": "nao quero saber mais"
+      },
+      {
+        "intent": "negar",
+        "text": "quero falar sobre outra coisa"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o quero saber de mais nada"
+      },
+      {
+        "intent": "negar",
+        "text": "nao era isso, me enganei"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o quero falar sobre isso"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda nao sei escolher um t\u00f3pico"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda n\u00e3o pensei sobre isso"
+      },
+      {
+        "intent": "negar",
+        "text": "nao sei do que quero falar"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o sei do que quero conversar"
+      },
+      {
+        "intent": "negar",
+        "text": "nunca"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o"
+      },
+      {
+        "intent": "negar",
+        "text": "nao conheco"
+      },
+      {
+        "intent": "negar",
+        "text": "n\u00e3o quero"
+      },
+      {
+        "intent": "negar",
+        "text": "escolhi errado"
+      },
+      {
+        "intent": "negar",
+        "text": "falei errado"
+      },
+      {
+        "intent": "negar",
+        "text": "duvida"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda n\u00e3o sei"
+      },
+      {
+        "intent": "negar",
+        "text": "nenhum"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como funciona"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "me diga mais"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "n\u00e3o entendi"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "nao entendi"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "n\u00e3o \u00e9 isso"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "nao eh isso"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como assim"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "e como funciona"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "e como faco isso"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como cadastra"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "nao tenho certeza"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "n\u00e3o sei"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "por onde solicitar"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como ter acesso"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "sobre o que voc\u00ea sabe falar"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "o que mais voc\u00ea sabe falar"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "quais assuntos voc\u00ea fala"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "o que voc\u00ea sabe"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "lista de assuntos possiveis"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "quais as perguntas vc responde"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "quais as perquisar voc\u00ea responde"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "#MEAJUDA"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "MEAJDA"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "#meajuda"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "# me ajuda"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "MEAJUDA"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "meajuda"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "me ajuda"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "ajuda"
+      },
+      {
+        "intent": "o_que_sei_falar",
+        "text": "menu"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Tudo bem"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Como voc\u00eas esta"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "como vc ta"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "joia"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "joinha"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "tudo bom"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "bom dia flor do dia"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "Tudo bem e voc\u00ea"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "como vc esta"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "como vai vc"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "esta tudo bem com voc\u00ea, Tais"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem te criou"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem te desenvolveu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem te programou"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "voc\u00ea tem pai"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "qual seu pai"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "onde voce nasceu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quando vc nasceu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem te fez"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem te produziu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "quem \u00e9 seu pai"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "fez a tais"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "criou a tais"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "produziu a tais"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "desenvolveu a tais"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "desenvolveu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "criou"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "produziu"
+      },
+      {
+        "intent": "quem_criou_a_tais",
+        "text": "programou"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vamos conversar pelo whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vamos conversar pelo wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vamos falar pelo wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "podemos conversar pelo whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "podemos conversar pelo zap"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "podemos conversar pelo wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "me passa seu whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "me manda teu wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "me passa seu wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "me passa seu zap"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vc tem whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "voc\u00ea ta no whatapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "voce ta no whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vc t\u00e1 no whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "voc\u00ea tem whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "voc\u00ea tem zap"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vc tem zap"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vc tem wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "voc\u00ea tem wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "vc ta no wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "whatsapp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "wpp"
+      },
+      {
+        "intent": "tem_wpp",
+        "text": "zap"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "#errou"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "#erro"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "errou"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "erro"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "#erou"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "#errado"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "errado"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "respondeu errado"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "voce errou"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "voce respondeu errado"
+      },
+      {
+        "intent": "erro_resposta_utter",
+        "text": "resposta errada"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como funciona o processo"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como funciona a lei rouanet"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fa\u00e7o para enviar um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como \u00e9 o processo de envio de projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como criar um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como mandar um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fa\u00e7o a proposta"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fazer uma proposta cultural"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fazer um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "inscrevo uma proposta"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "inscrever uma proposta"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "enviar proposta"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fa\u00e7o para colocar um projeto na lei de incentivo"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como incluir um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como fa\u00e7o para incluir um projeto na lei"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como posso propor um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como propor um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "enviar projeto"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "fale sobre a defini\u00e7\u00e3o das etapas"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "quantas etapas tem"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "me fale sobre as etapas"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "quais as etapas da lei"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "etapas da lei"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "quais etapas existem"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "o que \u00e9 preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "defina preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "o que devo fazer no preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "documentos necess\u00e1rios"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "quais documentos anexar"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "o que anexar no preenchimento"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "o que \u00e9 admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "sobre admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "defina admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "o que acontece na admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "fase admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "etapa admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "qual a defini\u00e7\u00e3o de admissibilidade"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "o que \u00e9 aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "sobre aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "defina aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "o que acontece na aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "fase aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "etapa aprova\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "qual prazo para aprova\u00e7\u00e3o do projeto"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "como s\u00e3o aprovados os projetos"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "quanto tempo leva para ter um projeto aprovado"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "como aprovar um projeto"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "aprovar projeto"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "projeto aprovado"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "o que \u00e9 execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "sobre execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "defina execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "o que devo fazer no execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "fase de execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "fase execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "etapa execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "o que acontence em execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "execucao"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que \u00e9 an\u00e1lise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que \u00e9 presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "sobre an\u00e1lise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "sobre presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "defina an\u00e1lise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "defina presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que devo fazer no an\u00e1lise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que devo fazer no presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "tenho algumas duvidas sobre presta\u00e7ao de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "presta\u00e7ao de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "prestacao de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "analise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que \u00e9 presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "como prestar contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "fazer presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "como funciona a presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "prestar contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso encaminhar pedido de reativa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "como encaminhar pedido de reativa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "como refazer a reativa\u00e7\u00e3o de pedido"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "refazer o encaminhamento do pedido de reativa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "pedido de reativa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "reativar proposta"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "proposta indeferida como reativar"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso reativar uma proposta indeferida"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "existe um meio de reativar uma proposta indeferida?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "minha proposta foi rejeitada, como reativar ela?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso fazer o pedido de reativa\u00e7\u00e3o?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "como reativar uma proposta?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "desarquivamento de proposta"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "proposta arquivada"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "reativa\u00e7\u00e3o de proposta"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "desarquivamento"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "tenho duvida sobre o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "fale sobre o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "qual e o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "sabe o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "prazos"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "deadline"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "como prorogar prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "prorroga\u00e7\u00e3o de prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "solicitar prorroga\u00e7\u00e3o de prazo"
+      },
+      {
+        "intent": "",
+        "text": "qual a data para apresentar um projeto"
+      },
+      {
+        "intent": "",
+        "text": "qual a data para apresentar uma proposta"
+      },
+      {
+        "intent": "",
+        "text": "qual a data para apresenta\u00e7\u00e3o de projeto"
+      },
+      {
+        "intent": "",
+        "text": "qual a data para apresenta\u00e7\u00e3o de proposta"
+      },
+      {
+        "intent": "",
+        "text": "quando devo enviar meu projeto"
+      },
+      {
+        "intent": "",
+        "text": "quando devo enviar a minha proposta"
+      },
+      {
+        "intent": "",
+        "text": "prazo para apresentar projeto"
+      },
+      {
+        "intent": "",
+        "text": "prazo para apresentar proposta"
+      },
+      {
+        "intent": "",
+        "text": "data de envio de projeto"
+      },
+      {
+        "intent": "",
+        "text": "data de envio de proposta"
+      },
+      {
+        "intent": "",
+        "text": "data para iniciar projeto"
+      },
+      {
+        "intent": "",
+        "text": "data para inciar proposta"
+      },
+      {
+        "intent": "",
+        "text": "data para apresentar projeto"
+      },
+      {
+        "intent": "",
+        "text": "data para apresentar proposta"
+      },
+      {
+        "intent": "",
+        "text": "apresentacao de projeto"
+      },
+      {
+        "intent": "",
+        "text": "apresentacao de proposta"
+      },
+      {
+        "intent": "",
+        "text": "apresenta\u00e7\u00e3o de projeto"
+      },
+      {
+        "intent": "",
+        "text": "apresenta\u00e7\u00e3o de proposta"
+      },
+      {
+        "intent": "",
+        "text": "apresentar projeto"
+      },
+      {
+        "intent": "",
+        "text": "apresentar proposta"
+      },
+      {
+        "intent": "",
+        "text": "enviar projeto"
+      },
+      {
+        "intent": "",
+        "text": "enviar proposta"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "tenho duvida sobre o prazo de envio cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "envio do cnae, qual \u00e9 o prazo"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "envio do cnae, qual \u00e9 o prazo limite"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "qual \u00e9 o prazo limite para envio do cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "at\u00e9 quando posso enviar o cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "tem algum prazo para enviar o cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "envio do cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo para enviar cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo de envio de cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "cnae"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "qual \u00e9 o prazo da analise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "sobre analise de propostas, qual \u00e9 o prazo"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "qual \u00e9 o periodo de analise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "per\u00edodo an\u00e1lise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "periodo analise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "prazo de an\u00e1lise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "prazo de analise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "data avalia\u00e7\u00e3o de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "data avaliacao de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "an\u00e1lise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_proposta",
+        "text": "analise de proposta"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "qual \u00e9 o prazo da analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "sobre analise t\u00e9cnica, qual \u00e9 o prazo"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "qual \u00e9 o periodo de analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "saber sobre analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "p\u00e9riodo t\u00e9cnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "periodo analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "prazo an\u00e1lise t\u00e9cnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "prazo analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "data avalia\u00e7\u00e3o t\u00e9cnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "data avaliacao tecnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "an\u00e1lise t\u00e9cnica"
+      },
+      {
+        "intent": "processo_prazo_analise_tecnica",
+        "text": "analise tecnica"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "posso saber sobre o periodo de readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "sobre o prazo de readequa\u00e7ao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "qual \u00e9 o periodo de readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "qual \u00e9 o prazo de readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "p\u00e9riodo readequa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "periodo readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "prazo readequa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "prazo readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "data readequa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "data readequacao"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "readequa\u00e7\u00e3o"
+      },
+      {
+        "intent": "processo_prazo_readequacao",
+        "text": "readequacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "periodo de captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "prazo de captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "captacao, qual \u00e9 o prazo"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "p\u00e9riodo captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "periodo captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "prazo captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "prazo captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "data captacao"
+      },
+      {
+        "intent": "processo_prazo_periodo_captacao",
+        "text": "data captacao"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "qual \u00e9 o periodo para prestar contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "qual \u00e9 o prazo de presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "posso prorrogar a entrega da presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "posso fazer prorroga\u00e7\u00e3o para a entrega de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "posso prorrogar a presta\u00e7\u00e3o e contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "como prorrogar a presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "p\u00e9riodo presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "periodo prestacao contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "prazo presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "prazo para prestar contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "periodo para prestar contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "prazo prestacao de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "data presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "data prestacao de contas"
+      },
+      {
+        "intent": "processo_prazo_prestacao_contas",
+        "text": "prorrogar presta\u00e7\u00e3o de contas"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "tenho duvida sobre o prazo de diligencias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "dilig\u00eancias, qual \u00e9 o prazo"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "dilig\u00eancias, qual \u00e9 o prazo limite"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "qual \u00e9 o prazo de dilig\u00eancias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "periodo dilig\u00eancia"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "periodo de diligencia"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "periodo diligencias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "prazo dilig\u00eancias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "prazo diligencias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "data de diligencia"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "data diligencias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "dilig\u00eancias"
+      },
+      {
+        "intent": "processo_prazo_diligencias",
+        "text": "diligencias"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "qual \u00e9 o periodo para desarquivar propostas"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "p\u00e9riodo desarquivar"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "periodo desarquivar"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "prazo desarquivar"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "data desarquivar"
+      },
+      {
+        "intent": "processo_prazo_desarquivar",
+        "text": "desarquivar"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "desistir do prazo recursal"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "desistir do recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "prazo pra encaminhar recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "como \u00e9 a desist\u00eancia do prazo de recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "sobre o prazo de ecaminhamento de recurso, como desisto dele"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "da pra desistir do prazo de recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "ap\u00f3s o enquadramento, como desisto do prazo de recurso?"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "qual o prazo para desisitr de entrar com o recurso?"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "n\u00e3o quero entrar com o recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "quero desistir do prazo de recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "desist\u00eancia"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que \u00e9 tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que significa tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que e um chatbot"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que significa uma assistente virtual"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que \u00e9 uma assistente virtual"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que um chatbot faz"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "por que esse nome"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "por que seu nome \u00e9 tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "qual significado de tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "qual \u00e9 seu nome"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "qual sua tecnologia"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "me conte mais sobre voce"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "me fale sobre voce"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "tais me fale sobre vc"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "vc \u00e9 homem ou mulher"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "voc\u00ea \u00e9 um robo"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "vc \u00e9 um humano"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "voc\u00ea eh um robo"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "quem \u00e9 a tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "quem \u00e9 voce"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "quem e vc"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "defini\u00e7\u00e3o de tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "defina tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "assistente virtual"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "chatbot"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "robo"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "rob\u00f4"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "ta\u00eds"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que \u00e9 Minc"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que significa Minc"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "MinC \u00e9 o minist\u00e9rio"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que a sigla Minc significa"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "qual o trabalho do Ministerio da Cultura"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "qual o trabalho do Minist\u00e9rio da Cultura"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "Ministerio"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "Minc"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "Minit\u00e9rio da Cultura"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "quais as fun\u00e7\u00f5es do Minc"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que \u00e9 CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que significa CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "quem \u00e9 a CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que significa a sigla CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "qual o papel da cnic"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que faz a cnic"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "quem participa da cnic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que \u00e9 Sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que significa Sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "Sefic \u00e9 um org\u00e3o"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "Sefic \u00e9 do minist\u00e9rio"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que \u00e9 a sigla Sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que \u00e9 SEFIC?"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "qual o papel da sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "quem \u00e9 a sefic"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "o que \u00e9 Projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "o que significa Projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "como caracteriza um projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "por que \u00e9 um projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "projeto cultural"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": ""
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "o que \u00e9 Proposta"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "o que significa Proposta"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "como caracteriza uma proposta"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "o que e uma proposta"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que \u00e9 Proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que significa Proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que um proponente faz"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "quem \u00e9 proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "qual o papel do proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": ""
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "o que \u00e9 SALIC"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "o que significa Salic"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "Salic \u00e9 sigla de que"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "o que \u00e9 SALIC"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "salic"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que \u00e9 Vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que significa Vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "sobre vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que sao vinculadas"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que s\u00e3o vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "Vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que faz a vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "qual o papel das vinculadas"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "Funarte"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "Iphan"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que a Funarte faz"
+      },
+      {
+        "intent": "captacao",
+        "text": "quero falar sobre captacao"
+      },
+      {
+        "intent": "captacao",
+        "text": "tenho duvidas sobre captacao"
+      },
+      {
+        "intent": "captacao",
+        "text": "voc\u00ea sabe falar sobre captacao"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando poderei efetuar a capta\u00e7\u00e3o de recursos do meu projeto"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "capta\u00e7\u00e3o de recursos, quando fazer"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "qual \u00e9 o momento para fazer a capta\u00e7\u00e3o de recursos"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando fazer a capta\u00e7\u00e3o de recursos do projeto"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando posso come\u00e7ar a capta\u00e7\u00e3o de recursos da minha proposta"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando come\u00e7a a capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "a partir de quando posso come\u00e7ar a captar recursos"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando a capta\u00e7\u00e3o estar\u00e1 liberada"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "captar recursos do projeto"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quero captar, quando posso iniciar"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando come\u00e7a a arrecada\u00e7\u00e3o de dinheiro"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando eu come\u00e7o a captar"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "j\u00e1 enviei meu projeto, j\u00e1 posso captar"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando preciso me preocupar com a capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando se iniciar\u00e1 a fase de capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "a capta\u00e7\u00e3o j\u00e1 pode ser feita"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "em quanto tempo posso captar"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "eu submeti um projeto e quero saber quando posso come\u00e7ar a captar dinheiro"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "como posso fazer para captar recursos"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o pr\u00f3prio proponente do projeto pode captar os recursos para a sua execu\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o proponente pode captar o dinheiro para execucao"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quem pode ir captar o dinheiro para fazer o projeto"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "pode contratar algu\u00e9m pra captar dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "depois de aprovado quem vai pegar o dinheiro liberado"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "posso contratar algu\u00e9m pra captar pra mim"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quero contratar alguem pra captar recurso"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "posso terceirizar a captacao de recursos"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o proponente pode receber dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quanto o proponete pode ser pago"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "como funciona a capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "terceirizar captacao"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente pagamento"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "pagamento proponente"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente recebimento"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente captar"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "contratar capta\u00e7\u00e3o"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente receber"
+      }
+    ]
+  },
+  "regex_features": []
+}
