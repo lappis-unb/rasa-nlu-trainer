@@ -1,0 +1,473 @@
+{
+	"templates": {
+		"utter_default": [
+			{
+				"text": "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito\nVocê pode perguntar de novo de outro jeito?\n"
+			},
+			{
+				"text": "Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,\nentre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)\nMas se você perguntar de outra forma talvez eu consiga te responder\n"
+			},
+			{
+				"text": "Hummmm... Não sei se entendi. Pode escrever de outra forma?\n"
+			},
+			{
+				"text": "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
+			},
+			{
+				"text": "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?\n"
+			},
+			{
+				"text": "A minha missão é te guiar para a inscrição da sua proposta,\nSe você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.\nMas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet =)\n"
+			}
+		],
+		"utter_expressoes_indesejadas": [
+			{
+				"text": "Hummm… Não gostei muito dessa expressão que você usou. \nQue tal falar de outra forma?\n"
+			}
+		],
+		"utter_definicao_tais": [
+			{
+				"text": "Eu sou uma assistente virtual da Secretaria Especial da Cultura,\nmeu objetivo é sanar dúvidas sobre a Lei Rouanet.\n\nUma assistente virtual é uma inteligência artificial\ncriada para interagir com as pessoas.\nPara me comunicar com vocês utilizo algoritmos de aprendizagem profundo (deep learning) \ne sou toda software livre :P\n\nEm cada interação que temos aqui, eu aprendendo mais\npara que a gente se comunique melhor.\n\nObrigada por conversar comigo!\n"
+			}
+		],
+		"utter_quem_criou_a_tais": [
+			{
+				"text": "Fui desenvolvida em uma parceria entre a Secretaria Especial da Cultura \ne o LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)\nna Universidade de Brasília, um laboratório super inovador e descolado!\n\nSe quiser me conhecer mais, acesse o meu projeto :)\nhttps://github.com/lappis-unb/tais\n"
+			}
+		],
+		"utter_lei_rouanet_o_que_eh": [
+			{
+				"text": "A Lei 8.313/91, Lei Rouanet, é o principal mecanismo de fomento à Cultura do Brasil. Ela instituiu o Programa Nacional de Apoio à Cultura (Pronac).\n\nPara cumprir este objetivo, a lei estabelece as normativas de como o Governo Federal deve disponibilizar recursos para a realização de projetos artístico-culturais.\n\nO mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.\nOu seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.\n"
+			}
+		],
+		"utter_lei_rouanet_divulgacao_patrocinio": [
+			{
+				"text": "De acordo com o Art. 44. § 1º do art. 23 da Lei nº 8.313, de 1991: \nI - Ações adicionais realizadas pelo patrocinador, pelos proponentes ou pelos captadores destinadas à prospecção comercial, programas de relacionamento, ampliação da divulgação ou promoção do patrocinador e de suas marcas e produtos, desde que com a comprovada anuência do proponente e custeadas com recursos não-incentivados;\nII - Fornecimento de produtos ou serviços do incentivador ao projeto cultural, desde que comprovada a maior economicidade ou exclusividade;\nIII - Concessão de acesso a ensaios, apresentações, visitas ou quaisquer atividades associadas ou não ao projeto cultural; e\nIV - A comercialização de produtos e subprodutos do projeto cultural em condições promocionais.\n"
+			}
+		],
+		"utter_diga_mais": [
+			{
+				"text": "Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar \"como funciona a Lei Rouanet\" ao invés de \"Como funciona\"\n"
+			}
+		],
+		"utter_definicao_minc": [
+			{
+				"text": "O Ministério da Cultura (MinC) é o responsável pela aprovação e monitoramento dos projetos submetidos.\n"
+			}
+		],
+		"utter_definicao_cnic": [
+			{
+				"text": "O Conselho Nacional de Incentivo à Cultura (CNIC) é responsável por selecionar e aprovar os projetos para captação.\n"
+			}
+		],
+		"utter_definicao_sefic": [
+			{
+				"text": "A (Secretaria de Fomento e Incentivo à Cultura) planeja,  coordena e supervisiona a operacionalização Pronac, na aprovação, monitoramento e prestação de contas de projetos culturais.\n"
+			}
+		],
+		"utter_definicao_projeto": [
+			{
+				"text": "Após a superação da análise de admissibilidade da proposta é gerado o número de PRONAC para definir o projeto cultural\n"
+			}
+		],
+		"utter_definicao_proposta": [
+			{
+				"text": "Proposta é o conjunto de formulários que devem ser preenchidos pelo proponente afim de se tornar um projeto.\n"
+			}
+		],
+		"utter_definicao_proponente": [
+			{
+				"text": "Proponente é o agente responsável por propor e participar de projeto cultural.\n"
+			}
+		],
+		"utter_processo_preenchimento": [
+			{
+				"text": "É a primeira fase da proposta, em que o proponente preenche os formulários.\n"
+			}
+		],
+		"utter_processo_admissibilidade": [
+			{
+				"text": "É a fase de análise da proposta feita pela coordenação de admissibilidade.\n"
+			}
+		],
+		"utter_processo_aprovacao": [
+			{
+				"text": "Aprovação é a fase em que a SEFIC envia o projeto à análise técnica, inclui na pauta da Reunião da CNIC, confere documentação e encaminha para publicação de resultado.\n"
+			}
+		],
+		"utter_processo_execucao": [
+			{
+				"text": "Execução é a fase que possui atividades como execução do projeto cultural, envolvendo abertura das contas, movimentações financeiras e ajustes diversos.\n"
+			}
+		],
+		"utter_processo_analise_de_resultados": [
+			{
+				"text": "É a fase do final do projeto, onde o proponente deve apresentar todas as notas fiscais e contratos realizados a fim de provar os gastos do projeto.\nTodos os documentos que comprovam que a execução ocorreu em conformidade com o projeto aprovado.\nEX:\nComprovante de divulgação (Amostras de peças de divulgação e cliping de mídia expontânea)\nPlano de distribuição (Borderôs, declaração de recebimento dos beneficiários/patrocinadores, etc).\nComprovação de medidas de democratização do acesso (fotos, vídeos, declarações, etc.)\nComprovação de medidas de acessibilidade (fotos, vídeos, declarações, etc.)\n"
+			}
+		],
+		"utter_definicao_salic": [
+			{
+				"text": "Sistema de Apoio às Leis de Incentivo à Cultura (SALIC) é o\nsistema utilizado para submeter propostas e gerenciar\nprojetos aprovados pela Lei Rouanet.\n\nAcesse: *salic.cultura.gov.br*\n"
+			}
+		],
+		"utter_definicao_vinculada": [
+			{
+				"text": "As unidades vinculadas são órgãos associados ao MinC\nque avaliam o conteúdo, custos do projeto e sua readequação.\n"
+			}
+		],
+		"utter_processo_como_funciona": [
+			{
+				"text": "Então, já que você não sabe como submeter uma proposta, aqui vai um resumo do processo:\nA pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.\n\nEssa proposta é analisada pelo MinC. Se for admitida, autoriza o proponente a captar recursos.\nApós a captação mínima de 10% do valor autorizado, o projeto segue com o fluxo análise até sua homologação.\nDurante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.\n\nA prestação de contas é analisada pela área responsável do Ministério.\n\nO primeiro passo para você participar deste processo é ter cadastro no SALIC\nVocê quer saber como fazer um cadastro no SALIC?\n"
+			}
+		],
+		"utter_cadastro_salic_video": [
+			{
+				"text": "O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura,\ne é por ele que você cadastra a proposta e a acompanha.\n\nSe você encontrar dificuldades no momento do cadastro, pode assistir este vídeo,\nnele você pode observar o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8\n\nCaso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique?\n"
+			}
+		],
+		"utter_salic_cadastro_usuario": [
+			{
+				"text": "A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br\nEntão no formulário inicial, onde pede login e senha, você deve clicar na opção \"Não sou cadastrado\", logo abaixo\n\nPreencha todos os campos corretamente, todos eles são obrigatórios.\nE depois clique em \"Cadastrar\"\n\nAgora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária\nÉ interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em \"Usuário > Alterar Senha\", para mudar a mesma\n"
+			}
+		],
+		"utter_lei_rouanet_quantidade_de_projetos": [
+			{
+				"text": "Até o momento foram enviadas mais de 240.000 propostas, das quais mais de 89.000 foram aprovadas, se tornando projetos.\n\nHá mais de 43.000 proponentes cadastrados e mais de 80.000 incentivadores contribuindo com projetos.\n\nAlém disso, mais de 69.000 fornecedores foram contratados pelos proponentes.\n\nPara uma informação atualizada, acesse: http://sistemas.cultura.gov.br/comparar/\n"
+			}
+		],
+		"utter_lei_rouanet_beneficios_incentivo_projetos_culturais": [
+			{
+				"text": "O principal benefício de incentivar projetos culturais é dar a chance para sociedade usufruir das mais diversas manifestações culturais que talvez nunca fossem possíveis sem incentivo.\nE tem mais...as empresas que incentivam projetos culturais podem deduzir do imposto de renda as quantias que despenderam em projetos aprovados pelo Ministério da Cultura\n\nÉ claro que essa dedução do imposto de renda acontece nas condições estabelecidas na legislação vigente, e está limitada a 4% do imposto devido\n"
+			}
+		],
+		"utter_lei_rouanet_quem_pode_ser_proponente": [
+			{
+				"text": "Proponente é a pessoa responsável por apresentar, realizar e responder pelo projeto cultural. \nPode ser uma pessoa física com atuação na área cultural ou pessoa jurídica de direito público ou privado, com ou sem fins lucrativos, \ncujo ato constitutivo ou instrumento congênere disponha sobre sua finalidade cultural.\n"
+			}
+		],
+		"utter_lei_rouanet_origem_do_dinheiro": [
+			{
+				"text": "O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.\nOu seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.\n\nQualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a lei Rouanet apoiando projetos.\nAtualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.\nPara saber mais, acesse: http://rouanet.cultura.gov.br/incentivofiscal/\n"
+			}
+		],
+		"utter_lei_rouanet_denuncia": [
+			{
+				"text": "Em caso de irregularidades, dúvidas, sugestões,  entre em contato com as áreas do MinC, http://rouanet.cultura.gov.br/fale-conosco/\n"
+			}
+		],
+		"utter_lei_rouanet_quem_pode_incentivar": [
+			{
+				"text": "Pessoas Físicas ou  Jurídicas tributadas com base no Lucro Real podem descontar as doações ou patrocínios do imposto de renda observando sempre o limite máximo de 4% do imposto devido\nSe você quiser saber mais sobre quais Pessoas Jurídicas devem fazer a apuração do lucro real confira o artigo 246, do Decreto 3.000 de 26 de março de 1999 que \\\"Regulamenta a tributação, fiscalização, arrecadação e administração do Imposto sobre a Renda e Proventos de Qualquer Natureza\\\"\n\nOlha, alguns familiares não podem incentivar projetos:\n- o cônjuge\n- os parentes até o terceiro grau, inclusive os afins\n- e os dependentes… tanto do doador, quanto do patrocinador, dos titulares, administradores, acionistas ou sócios de pessoa jurídica vinculada ao doador ou patrocinador, na data da operação, ou nos 12 meses anteriores.\n"
+			}
+		],
+		"utter_lei_rouanet_porcentagem_de_deducao_do_imposto": [
+			{
+				"text": "Atualmente, existem 2 situações descritas na Lei 8313/91:\n1) o artigo 26 da Lei indica que os percentuais de dedução do IR são os seguintes:\nEmpresas:\naté 30% do valor patrocinado;\naté 40% do valor doado\nPessoa física:\naté 60% do valor patrocinado;\naté 80% do valor doado.\nnesse caso, a empresa incentivadora poderá ainda lançar o valor incentivado como despesa operacional\n\n2) Com a modificação implementada pela Lei 9.874/99, quem investe em projetos culturais enquadrados nos segmentos indicados pelo artigo 18 da Lei passou a ter a possibilidade de deduzir até 100% do valor doado ou patrocinado as empresas que investem nesses segmentos não podem lançar o valor incentivado como despesa operacional agora, IMPORTANTE:\nos percentuais de dedução de IR são limitados aos estabelecidos pela legislação do imposto de renda vigente, que atualmente são 4% do imposto devido para empresas e 6% do imposto devido para pessoa física\nVocê pode ver os detalhes das leis pelos endereços:\nLei 8313/91: http://www.planalto.gov.br/ccivil_03/leis/l8313cons.html\nLei 9.874/99: http://www.planalto.gov.br/ccivil_03/leis/l9874.html\n"
+			}
+		],
+		"utter_lei_rouanet_valor_maximo_projeto": [
+			{
+				"text": "Isto depende do seu perfil de proponente.\nSobre qual perfil você quer saber:\n- Pessoa Física, Microempresário Individual(MEI)\n- Demais Pessoas Jurídicas\n- Quero saber de todos\n"
+			}
+		],
+		"utter_lei_rouanet_valor_maximo_pessoa_fisica": [
+			{
+				"text": "Para a Pessoa Física e para o Empresário Individual com enquadramento em Microempresário Individual (MEI), o valor máximo é de R$ 1,5 milhão para até quatro projetos por ano;\nEstes limites podem ser ultrapassados dependendo do espaço em que o projeto cultural será realizado e a região:\n\nOcorrendo em espaço público, estes perfis tem a quantidade de projetos acrescido em 2, mas o valor máximo não muda.\n"
+			}
+		],
+		"utter_lei_rouanet_valor_maximo_regiao": [
+			{
+				"text": "Se o seu projeto for aplicado na Região Sul, ou no Espírito Santo ou Minas Gerais, pode ter um aumento de até 25%.Nas Regiões Norte, Nordeste ou Centro-Oeste, o aumento pode ser de até 50%.\nLembrando que essa exceção não pode ser aplicada em projetos com:\n- planos anuais e plurianuais;\n- conservação e restauração de imóveis, monumentos, espaços e objetos tombados.\n\nQuem autoriza os limites desses projetos, de reservação de acervo, exposições com acervos museológicos, de construção e implantação de equipamentos culturais, é a área técnica do MinC.\n"
+			}
+		],
+		"utter_lei_rouanet_valor_minimo": [
+			{
+				"text": "Não há um valor mínimo para projetos.\n"
+			}
+		],
+		"utter_lei_rouanet_valor_maximo_pessoa_juridica": [
+			{
+				"text": "Então, em relação aos demais enquadramentos de Empresário Individual, o valor máximo é de R$ 7,5 milhões para até oito projetos por ano;\nPara a Empresa Individual de Responsabilidade Limitada (EIRELI), Sociedades Limitadas (Ltda.) e demais Pessoas Jurídicas, o valor máximo é de R$ 60 milhões para até 16 projetos por ano.\n\nSe o projeto cultural ocorrer em espaço público, o Empresário Individual tem a quantidade de projetos acrescido em 3, mas o valor máximo não muda.\nÁssim como as Empresa Individual de Responsabilidade Limitada (EIRELI), Sociedades Limitadas (Ltda.) e demais Pessoas Jurídicas, quem podem somar mais 4 projetos, se realizados em espaço público, mantendo os limites orçamentários.\n"
+			}
+		],
+		"utter_lei_rouanet_remuneracao_proponente": [
+			{
+				"text": "O proponente poderá ser remunerado com recursos decorrentes de renúncia fiscal, desde que preste serviço ao projeto, conforme previsto no orçamento apresentado.\nO valor desta remuneração, ainda que por diversos serviços, não pode ultrapassar 50% do custo do projeto.\n\nO percentual de 50% inclui remuneração por serviços realizados por cônjuge, companheiro, parentes em linha reta ou colateral até o segundo grau, parentes com vínculo de afinidade com o proponente e\nem benefício de empresa coligada ou que tenha sócio em comum.\n\nO limite pode ser ultrapassado quando a remuneração é feita a grupos artísticos familiares que atuem na execução do projeto ou quando se tratar de pagamento a um mesmo fornecedor em projetos de execução de obras e restauros.\n"
+			}
+		],
+		"utter_lei_rouanet_comercializacao_de_ingressos": [
+			{
+				"text": "Do total de ingressos de um projeto cultural, a Lei Rouanet estabelece que a venda deve ser feita da seguinte forma:\n50% dos ingressos devem ser comercializadosa uma média de preço de R$225,00;\nMinimo de 10% deve ser vendido gratuitamente, com caráter social, educativo ou formação artística;\n\nAté 10% deve ser disponibilizado gratuitamente pelos patrocinadores;\nAté 10% deve ser distribuido gratuitamente pelo proponente de forma a divulgar o projeto;\n\nMinimo de 20% dos ingressos deve ser comercializado em valores que não utrapassem R$75,00.\n"
+			}
+		],
+		"utter_lei_rouanet_promocao_de_marca": [
+			{
+				"text": "O patrocinador pode divulgar sua marca em um projeto, desde que utilize\nrecursos próprios, não decorrentes do incentivo fiscal, nas seguintes situações:\n\nPromoção da imagem da empresa ou nome do patrocinador em peças de divulgação\nalém das aprovadas pelo Ministério da Cultura;\n\nFornecimento de produtos ou serviços do patrocinador ao projeto cultural,\ndesde que seja comprovada uma vantagem econômica ou exclusividade.\n"
+			}
+		],
+		"utter_lei_rouanet_valores_pagamento_caches": [
+			{
+				"text": "O limite para pagamento de cachês artísticos por apresentação é:\nR$ 45 mil para artista ou modelo solo;\n\nR$ 90 mil para grupos artísticos e para grupos de modelos de desfiles de moda;\nNo caso de orquestras, os valores são: R$ 2.250 mil por músico e R$ 45 mil para o maestro; A aprovação de valores superiores aos definidos acima poderá ser feita pelo plenário da Comissão Nacional de Incentivo à Cultura (CNIC), a depender das justificativas apresentadas pelo proponente e pela área técnica.\n"
+			}
+		],
+		"utter_lei_rouanet_etapas_aprovacao_projeto": [
+			{
+				"text": "As etapas para a aprovação de um projeto são as seguintes:\n\nApresentação de proposta\nAnálise de admissibilidade\nAnálise técnica\nAnálise pela CNIC\nDecisão final\n\nCaso você deseje saber a definição de cada uma delas abuse da #:\n"
+			}
+		],
+		"utter_lei_rouanet_apresentacao_de_proposta": [
+			{
+				"text": "O proponente (responsável pelo projeto) insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic),\nde forma eletrônica. Devem ser preenchidos campos como resumo, ficha técnica, orçamento, plano de distribuição de produtos/ingressos,\ne apresentados documentos obrigatórios de acordo com a área do projeto.\n"
+			}
+		],
+		"utter_lei_rouanet_analise_de_admissibilidade": [
+			{
+				"text": "Critérios objetivos estabelecidos pela Lei 8.313/91 e pela Instrução Normativa em vigor, como, por exemplo:\nVerificação do completo e correto preenchimento do formulário de apresentação da proposta cultural;\nAnálise quanto ao enquadramento do proponente e da proposta cultural;\nCaso seja admitida, a proposta recebe um número de Pronac.\nPrazo: até 60 dias, podendo ser ampliado para até 120 dias quando os projetos forem de restauração do patrimônio histórico ou construção de imóveis.\n\nApós a admissibilidade, o MinC publica portaria de autorização para captação de recursos incentivados no Diário Oficial da União (DOU).\n"
+			}
+		],
+		"utter_lei_rouanet_analise_tecnica": [
+			{
+				"text": "O projeto é encaminhado à análise técnica por parecerista da área cultural do projeto. São analisados requisitos como:\nAtendimento aos objetivos do incentivo fiscal da Lei Rouanet;\nSuficiência das informações prestadas;\nAferição da capacidade técnica do proponente para execução do projeto apresentado;\nAdequação do projeto às medidas de acessibilidade e democratização de acesso ao público;\nCompatibilidade dos custos previstos no projeto com os preços praticados no mercado regional da produção, conforme métrica estabelecida pelo MinC – o que se mostrar inadequado pode sofrer cortes justificados pelo parecerista;\nRelação custo/benefício do projeto no âmbito cultural, incluindo o impacto da utilização do mecanismo de incentivo fiscal na redução do preço final de produtos ou serviços culturais com público pagante, podendo o parecerista propor redução nos preços solicitados;\nAtendimento aos critérios e limites de custos estabelecidos pela Lei e Instrução Normativa em vigor;\n\nPrazo: até 30 dias do seu recebimento, podendo ser prorrogado por mais 120 dias quando se tratar de projeto de recuperação de patrimônio histórico ou construção de imóveis.\nNos casos de projetos culturais que tenham como objeto a preservação de bens culturais tombados ou registrados pelos poderes públicos (federal, estadual, distrital ou municipal), será obrigatória, também, a apreciação pelo órgão responsável pelo tombamento ou registro.\n"
+			}
+		],
+		"utter_lei_rouanet_analise_pela_cnic": [
+			{
+				"text": "Após emissão do parecer técnico, o projeto cultural será apreciado pela Comissão Nacional de Incentivo à Cultura (CNIC), que homologa a execução do projeto.\n"
+			}
+		],
+		"utter_lei_rouanet_decisao_final": [
+			{
+				"text": "O ministro de Estado da Cultura, em última instância, decide quanto à aprovação ou rejeição do projeto cultural. Historicamente, por convenção, o MinC acompanha a decisão do órgão consultivo. Excepcionalmente, é possível que o ministro decida de forma diferente, fundamentando a justificativa.\n"
+			}
+		],
+		"utter_salic_preenchimento": [
+			{
+				"text": "Nesta etapa eu posso responder dúvidas sobre o preenchimento de\npropostas no SALIC.\n\nSaberei responder mais sobre preenchimento nas minhas próximas versões :P\n"
+			}
+		],
+		"utter_salic_preenchimento_campo_custo_auditoria": [
+			{
+				"text": "Este campo não precisa ser preenchido agora, isso vai ser preenchido na prestação de contas.\n"
+			}
+		],
+		"utter_salic_preenchimento_valor_ingresso": [
+			{
+				"text": "Esse valor é usado para conferir a viabilidade do projeto e não\npode ultrapassar R$ 250,00 por beneficiário.\n\nPor exemplo: R$ 9.445.076,00 / 22.556 pessoas = R$ 419,18 por\nbeneficiário, ou seja, está acima do limite para sanar esse problema,\nvocê pode diminuir o custo do projeto ou aumentar a estimativa\nde público.\n"
+			}
+		],
+		"utter_salic_preenchimento_vinculo_cpf_proposta": [
+			{
+				"text": "O dirigente do projeto deve acessar o sistema e seguir os passos:\n1- Administrativo > Gerenciar responsáveis\nem seguida...\n\n2- Vincular propostas > Clicar na \\\"bolinha\\\" (Vincular) > Inserir\nresponsável > abaixo terá o número da Proposta/Nome\nNome do responsável selecionado > Clicar na \\\"bolinha\\\"\n\n3- Por último... clica também no botão Vincular\n"
+			}
+		],
+		"utter_salic_preenchimento_cadastro_agencia_bancaria": [
+			{
+				"text": "A agência bancária deve ser do banco do Brasil, deve conter 5\ndígitos, sem hifens, pontos ou letras\n"
+			}
+		],
+		"utter_salic_erros": [
+			{
+				"text": "Nesta etapa eu posso responder dúvidas sobre eventuais erros do\nsistema SALIC. Como: planilha desaparecida, perda dos dados\npreenchidos e recuperação de senha\n"
+			}
+		],
+		"utter_salic_erros_planilha_desapareceu": [
+			{
+				"text": "Ao excluir um produto do plano de distribuição a planilha vai ser\n\"zerada\" e o proponente deverá refazê-la.\n"
+			}
+		],
+		"utter_salic_erros_salvamento_de_proposta": [
+			{
+				"text": "Esse erro aconteceu por exceder o tempo logado no sistema.\n\nO limite de tempo para o preenchimento da proposta é de 20 minutos.\n\nNão esqueça de ir salvando a cada passo do preenchimento.\n"
+			}
+		],
+		"utter_salic_recuperacao_de_senha": [
+			{
+				"text": "Ah isso acontece com todo mundo ;)\nvocê pode gerar uma nova senha aqui:\n\nhttp://salic.cultura.gov.br/autenticacao/index/solicitarsenha\nou se isso não funcionar, mande uma solicitação para:\nsenhasalic@cultura.gov.br\n"
+			}
+		],
+		"utter_salic_erros_vinculo_cpf_cnpj": [
+			{
+				"text": "Apenas o dirigente da instituição é quem pode vincular uma\npessoa física ao CNPJ\n\no dirigente deve entrar com login e senha e aceitar o vínculo\n"
+			}
+		],
+		"utter_salic_erros_achar_proposta": [
+			{
+				"text": "Selecione o CPF ou CNPJ que deseja como proponente e liste a proposta\ndo CPF ou CNPJ selecionado  para isso, vá em:\n\n1- Proposta > Listar proposta\n2- Clicar em CPF Proponente > Selecionar o CNPJ aparecerão todas as\npropostas ativas no sistema\n"
+			}
+		],
+		"utter_elogios": [
+			{
+				"text": "Obrigada! É sempre bom dar e receber elogios :P\n"
+			}
+		],
+		"utter_tem_wpp": [
+			{
+				"text": "Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei Rouanet, \naqui é minha casa.\n"
+			}
+		],
+		"utter_processo_reativacao_de_proposta": [
+			{
+				"text": "Pra reativar uma proposta indeferida você deve enviar um pedido de reativação\nEsse pedido tem que expor as justificativas apropriadas para reanálise e deve ser assinado pelo proponente\n\nVocê encaminha o pedido em formato PDF para reativacao.proposta@cultura.gov.br\nE aí é só aguardar uma resposta\n"
+			}
+		],
+		"utter_salic_cadastro_proponente": [
+			{
+				"text": "Agora que você já se cadastrou, o próximo passo é cadastrar um proponente\nBasta você entrar no Salic...\nclicar em Administrativo > Cadastrar proponente e preencher todos os dados\n"
+			}
+		],
+		"utter_processo_prazo": [
+			{
+				"text": "Posso responder suas dúvidas a respeito de Datas\ne Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, \nprazos de apresentação de um projeto, análise de proposta e de readequação.\n"
+			}
+		],
+		"utter_processo_prazo_envio_cnae": [
+			{
+				"text": "O proponente tem o prazo de 40 dias para responder a diligência 20+20 prorrogados automaticamente.\nNão é necessário fazer solicitação.\n\nCaso seja insuficiente, o proponente poderá anexar o protocolo da Receita de inserção do CNAE no Salic.\n"
+			}
+		],
+		"utter_processo_prazo_desistir_recurso": [
+			{
+				"text": "A partir do momento em que seu projeto foi enquadrado, iniciou-se o prazo de 10 dias corridos para recorrer ao enquadramento proposto para o projeto\nCaso concorde com o enquadramento dado é possível desistir desse prazo.\n\nAmbas as manifestações se dão por via da aba \"recurso\" no Menu ao lado esquerdo da tela do projeto, no Salic\n"
+			}
+		],
+		"utter_cumprimentar": [
+			{
+				"text": "Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.\nEstou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,\npara saber de quais assuntos podemos conversar use a #MEAJUDA.\n"
+			}
+		],
+		"utter_o_que_sei_falar": [
+			{
+				"text": "Veja alguns dos assuntos que eu posso te ajudar (:\n\nO que é a Lei Rouanet e como funciona\nDúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)\nOu dúvidas sobre definições e siglas (ex: o que é TAIS?)\n\nAgora que você já sabe do que podemos conversar, vou te dar algumas dicas...\n\nEu consigo te entender melhor quando você faz perguntas curtas\ne manda uma pergunta de cada vez.\n\nAssim... espera eu te responder\ndaí você me manda outra!\n\nBom, acho que já falei demais! Sua vez...\no que você deseja saber?\n"
+			}
+		],
+		"utter_objetivo": [
+			{
+				"text": "Mas antes, para a nossa conversa ser mais eficiente, \nvocê quer saber como submeter uma proposta?\n"
+			}
+		],
+		"utter_manter_conversa": [
+			{
+				"text": "A minha missão é te guiar para a inscrição da sua proposta,\nSe você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.\nMas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet (:\n"
+			}
+		],
+		"utter_continuar_conversa": [
+			{
+				"text": "O que mais você gostaria de perguntar?\n"
+			},
+			{
+				"text": "Em que mais posso te ajudar?\n"
+			},
+			{
+				"text": "Qual a sua próxima dúvida?\n"
+			},
+			{
+				"text": "Qual o próximo tema te interessa?\n"
+			},
+			{
+				"text": "O que mais você deseja saber?\n"
+			},
+			{
+				"text": "O que mais você gostaria de saber?\n"
+			},
+			{
+				"text": "O que mais você deseja perguntar?\n"
+			}
+		],
+		"utter_despedir": [
+			{
+				"text": "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\nAté logo!\n"
+			},
+			{
+				"text": "Foi um prazer te ajudar!\nSempre que precisar, volte aqui!\nAté a próxima!\n"
+			},
+			{
+				"text": "Foi um prazer te ajudar!\nQuando surgir alguma dúvida, volte aqui!\nAté mais!\n"
+			}
+		],
+		"utter_captacao": [
+			{
+				"text": "Em captação, eu sei falar sobre quando captar e sobre como captar\n"
+			}
+		],
+		"utter_captacao_quando_captar": [
+			{
+				"text": "A captação só pode começar depois que o projeto passa pela fase de\nenquadramento, pela análise documental e pela publicação.\n\nAssim que o projeto é publicado no Diário Oficial da União você pode\ncomeçar a captar recursos.\n"
+			}
+		],
+		"utter_captacao_como_captar": [
+			{
+				"text": "Para captar os recursos você deve achar incetivadores. Assim que o projeto é publicado no Diário Oficial da União você pode\ncomeçar a captar recursos.\n\nEsse é parte das atribuições do proponente e não há participação do MinC.\n"
+			}
+		],
+		"utter_processo_definicao_etapas": [
+			{
+				"text": "O processo possui cinco etapas:\n  - Preenchimento\n  - Aprovação\n  - Admissibilidade\n  - Execução\n  - Análise de Resultados\n\nVocê tem alguma dúvida sobre elas?\n"
+			}
+		],
+		"utter_menu": [
+			{
+				"text": "Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…\nOu se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.\nPara lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)\nE aí, por onde vamos começar?\n"
+			}
+		],
+		"utter_tudo_bem": [
+			{
+				"text": "Tudo bem, obrigada! Quero te ajudar!\n"
+			}
+		],
+		"utter_salic_preenchimento_cadastro_rubrica_advogado_contador": [
+			{
+				"text": "Orçamento do projeto > Custos por produto > Clicar no produto desejado\nClicar no Local de realização > por último na aba Assessoria contábil e jurídica.\n"
+			}
+		],
+		"utter_processo_prazo_apresentar_proposta": [
+			{
+				"text": "O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de novembro. \nSendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.\nFique de olho no calendário (:\n"
+			}
+		],
+		"utter_processo_prazo_analise_proposta": [
+			{
+				"text": "A Secretaria Especial da Cultura tem 60 dias para resposta, após a apresentação da proposta pelo proponente.\n"
+			}
+		],
+		"utter_processo_prazo_analise_tecnica": [
+			{
+				"text": "Com exceção de projetos complexos e de patrimônio, as vinculadas tem o prazo de 30 dias após o envio para análise técnica.\n"
+			}
+		],
+		"utter_processo_prazo_readequacao": [
+			{
+				"text": "Para readequações orçamentais, o prazo é de 60 dias. Já solicitações diversas, o prazo é de 30 dias.\n"
+			}
+		],
+		"utter_processo_prazo_periodo_captacao": [
+			{
+				"text": "Em relação ao prazo de captação, são 36 meses a partir da data da publicação da portaria de autorização.\n"
+			}
+		],
+		"utter_processo_prazo_prestacao_contas": [
+			{
+				"text": "Envio da prestação de contas via salic deve ocorrer em até 60 dias após a expiração do prazo de execução.\nEsse prazo não pode ser prorrogado.\n"
+			}
+		],
+		"utter_processo_prazo_diligencias": [
+			{
+				"text": "O prazo de diligências é 20 dias prorrogáveis por mais 20 dias.\n"
+			}
+		],
+		"utter_processo_prazo_desarquivar": [
+			{
+				"text": "Não tem prazo para desarquivar a proposta.\n"
+			}
+		],
+		"utter_erro_resposta_utter": [
+			{
+				"text": "Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?\n"
+			}
+		],
+		"utter_lei_rouanet_democratizacao": [
+			{
+				"text": "A formação de plateia não é mais obrigatória e não é mais utilizado desde a IN 5.\nJá a democratização ao acesso são medidas previstas nos artigos 20 e 21 da IN\nque promovem e ampliam a possibilidade de fruição dos bens, produtos e ações culturais,\nem especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais\npor sua condição socioeconômica ou outras circunstancias.\n"
+			}
+		]
+	}
+}

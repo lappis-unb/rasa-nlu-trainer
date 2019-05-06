@@ -1,0 +1,686 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "stories": [
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+            "utterName": "utter_lei_rouanet_beneficios_incentivo_projetos_culturais"
+          },
+          {
+            "intentName": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_origem_do_dinheiro",
+            "utterName": "utter_lei_rouanet_origem_do_dinheiro"
+          },
+          {
+            "intentName": "lei_rouanet_origem_do_dinheiro",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+            "utterName": "utter_lei_rouanet_porcentagem_de_deducao_do_imposto"
+          },
+          {
+            "intentName": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_remuneracao_proponente",
+            "utterName": "utter_lei_rouanet_remuneracao_proponente"
+          },
+          {
+            "intentName": "lei_rouanet_remuneracao_proponente",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_comercializacao_de_ingressos",
+            "utterName": "utter_lei_rouanet_comercializacao_de_ingressos"
+          },
+          {
+            "intentName": "lei_rouanet_comercializacao_de_ingressos",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_promocao_de_marca",
+            "utterName": "utter_lei_rouanet_promocao_de_marca"
+          },
+          {
+            "intentName": "lei_rouanet_promocao_de_marca",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_valores_pagamento_caches",
+            "utterName": "utter_lei_rouanet_valores_pagamento_caches"
+          },
+          {
+            "intentName": "lei_rouanet_valores_pagamento_caches",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "captacao",
+            "utterName": "utter_captacao"
+          },
+          {
+            "intentName": "captacao_quando_captar",
+            "utterName": "utter_captacao_quando_captar"
+          },
+          {
+            "intentName": "captacao_quando_captar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "captacao_como_captar",
+            "utterName": "utter_captacao_como_captar"
+          },
+          {
+            "intentName": "captacao_como_captar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_projeto",
+            "utterName": "utter_lei_rouanet_valor_maximo_projeto"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_geral",
+            "utterName": "utter_lei_rouanet_valor_minimo"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_geral",
+            "utterName": "utter_lei_rouanet_valor_maximo_pessoa_fisica"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_geral",
+            "utterName": "utter_lei_rouanet_valor_maximo_pessoa_juridica"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_geral",
+            "utterName": "utter_lei_rouanet_valor_maximo_regiao"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_geral",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_fisica",
+            "utterName": "utter_lei_rouanet_valor_minimo"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_fisica",
+            "utterName": "utter_lei_rouanet_valor_maximo_pessoa_fisica"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_fisica",
+            "utterName": "utter_lei_rouanet_valor_maximo_regiao"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_fisica",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_juridica",
+            "utterName": "utter_lei_rouanet_valor_minimo"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_juridica",
+            "utterName": "utter_lei_rouanet_valor_maximo_pessoa_juridica"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_juridica",
+            "utterName": "utter_lei_rouanet_valor_maximo_regiao"
+          },
+          {
+            "intentName": "lei_rouanet_valor_maximo_pessoa_juridica",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "lei_rouanet_o_que_eh",
+            "utterName": "utter_lei_rouanet_o_que_eh"
+          },
+          {
+            "intentName": "lei_rouanet_o_que_eh",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "definicao_projeto",
+            "utterName": "utter_definicao_projeto"
+          },
+          {
+            "intentName": "definicao_projeto",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "definicao_proposta",
+            "utterName": "utter_definicao_proposta"
+          },
+          {
+            "intentName": "definicao_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "definicao_proponente",
+            "utterName": "utter_definicao_proponente"
+          },
+          {
+            "intentName": "definicao_proponente",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_denuncia",
+            "utterName": "utter_lei_rouanet_denuncia"
+          },
+          {
+            "intentName": "lei_rouanet_denuncia",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_quantidade_de_projetos",
+            "utterName": "utter_lei_rouanet_quantidade_de_projetos"
+          },
+          {
+            "intentName": "lei_rouanet_quantidade_de_projetos",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_quem_pode_ser_proponente",
+            "utterName": "utter_lei_rouanet_quem_pode_ser_proponente"
+          },
+          {
+            "intentName": "lei_rouanet_quem_pode_ser_proponente",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_quem_pode_incentivar",
+            "utterName": "utter_lei_rouanet_quem_pode_incentivar"
+          },
+          {
+            "intentName": "lei_rouanet_quem_pode_incentivar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_etapas_aprovacao_projeto",
+            "utterName": "utter_lei_rouanet_etapas_aprovacao_projeto"
+          },
+          {
+            "intentName": "lei_rouanet_etapas_aprovacao_projeto",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_analise_tecnica",
+            "utterName": "utter_lei_rouanet_analise_tecnica"
+          },
+          {
+            "intentName": "lei_rouanet_analise_tecnica",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_analise_de_admissibilidade",
+            "utterName": "utter_lei_rouanet_analise_de_admissibilidade"
+          },
+          {
+            "intentName": "lei_rouanet_analise_de_admissibilidade",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_apresentacao_de_proposta",
+            "utterName": "utter_lei_rouanet_apresentacao_de_proposta"
+          },
+          {
+            "intentName": "lei_rouanet_apresentacao_de_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_analise_pela_cnic",
+            "utterName": "utter_lei_rouanet_analise_pela_cnic"
+          },
+          {
+            "intentName": "lei_rouanet_analise_pela_cnic",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_decisao_final",
+            "utterName": "utter_lei_rouanet_decisao_final"
+          },
+          {
+            "intentName": "lei_rouanet_decisao_final",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_divulgacao_patrocinio",
+            "utterName": "utter_lei_rouanet_divulgacao_patrocinio"
+          },
+          {
+            "intentName": "lei_rouanet_divulgacao_patrocinio",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_democratizacao",
+            "utterName": "utter_lei_rouanet_democratizacao"
+          },
+          {
+            "intentName": "lei_rouanet_democratizacao",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "lei_rouanet_receber_incetivo_de_parentes",
+            "utterName": "utter_lei_rouanet_quem_pode_incentivar"
+          },
+          {
+            "intentName": "lei_rouanet_receber_incetivo_de_parentes",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_como_funciona",
+            "utterName": "utter_processo_como_funciona"
+          },
+          {
+            "intentName": "afirmar",
+            "utterName": "utter_salic_cadastro_usuario"
+          },
+          {
+            "intentName": "afirmar",
+            "utterName": "utter_salic_cadastro_proponente"
+          },
+          {
+            "intentName": "afirmar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "negar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "salic_cadastro_usuario",
+            "utterName": "utter_salic_cadastro_usuario"
+          },
+          {
+            "intentName": "salic_cadastro_usuario",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_cadastro_proponente",
+            "utterName": "utter_salic_cadastro_proponente"
+          },
+          {
+            "intentName": "salic_cadastro_proponente",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_erros",
+            "utterName": "utter_salic_erros"
+          },
+          {
+            "intentName": "salic_erros",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_erros_salvamento_de_proposta",
+            "utterName": "utter_salic_erros_salvamento_de_proposta"
+          },
+          {
+            "intentName": "salic_erros_salvamento_de_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_erros_planilha_desapareceu",
+            "utterName": "utter_salic_erros_planilha_desapareceu"
+          },
+          {
+            "intentName": "salic_erros_planilha_desapareceu",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_erros_vinculo_cpf_cnpj",
+            "utterName": "utter_salic_erros_vinculo_cpf_cnpj"
+          },
+          {
+            "intentName": "salic_erros_vinculo_cpf_cnpj",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_erros_achar_proposta",
+            "utterName": "utter_salic_erros_achar_proposta"
+          },
+          {
+            "intentName": "salic_erros_achar_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "definicao_salic",
+            "utterName": "utter_definicao_salic"
+          },
+          {
+            "intentName": "definicao_salic",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento",
+            "utterName": "utter_salic_preenchimento"
+          },
+          {
+            "intentName": "salic_preenchimento",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento_campo_custo_auditoria",
+            "utterName": "utter_salic_preenchimento_campo_custo_auditoria"
+          },
+          {
+            "intentName": "salic_preenchimento_campo_custo_auditoria",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+            "utterName": "utter_salic_preenchimento_cadastro_rubrica_advogado_contador"
+          },
+          {
+            "intentName": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento_valor_ingresso",
+            "utterName": "utter_salic_preenchimento_valor_ingresso"
+          },
+          {
+            "intentName": "salic_preenchimento_valor_ingresso",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento_vinculo_cpf_proposta",
+            "utterName": "utter_salic_preenchimento_vinculo_cpf_proposta"
+          },
+          {
+            "intentName": "salic_preenchimento_vinculo_cpf_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_preenchimento_cadastro_agencia_bancaria",
+            "utterName": "utter_salic_preenchimento_cadastro_agencia_bancaria"
+          },
+          {
+            "intentName": "salic_preenchimento_cadastro_agencia_bancaria",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "salic_recuperacao_de_senha",
+            "utterName": "utter_salic_recuperacao_de_senha"
+          },
+          {
+            "intentName": "salic_recuperacao_de_senha",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "processo_reativacao_de_proposta",
+            "utterName": "utter_processo_reativacao_de_proposta"
+          },
+          {
+            "intentName": "processo_reativacao_de_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_envio_cnae",
+            "utterName": "utter_processo_prazo_envio_cnae"
+          },
+          {
+            "intentName": "processo_prazo_envio_cnae",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_analise_tecnica",
+            "utterName": "utter_processo_prazo_analise_tecnica"
+          },
+          {
+            "intentName": "processo_prazo_analise_tecnica",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_analise_proposta",
+            "utterName": "utter_processo_prazo_analise_proposta"
+          },
+          {
+            "intentName": "processo_prazo_analise_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_readequacao",
+            "utterName": "utter_processo_prazo_readequacao"
+          },
+          {
+            "intentName": "processo_prazo_readequacao",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_periodo_captacao",
+            "utterName": "utter_processo_prazo_periodo_captacao"
+          },
+          {
+            "intentName": "processo_prazo_periodo_captacao",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_prestacao_contas",
+            "utterName": "utter_processo_prazo_prestacao_contas"
+          },
+          {
+            "intentName": "processo_prazo_prestacao_contas",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_diligencias",
+            "utterName": "utter_processo_prazo_diligencias"
+          },
+          {
+            "intentName": "processo_prazo_diligencias",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_desarquivar",
+            "utterName": "utter_processo_prazo_desarquivar"
+          },
+          {
+            "intentName": "processo_prazo_desarquivar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo_desistir_recurso",
+            "utterName": "utter_processo_prazo_desistir_recurso"
+          },
+          {
+            "intentName": "processo_prazo_desistir_recurso",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "processo_prazo",
+            "utterName": "utter_processo_prazo"
+          },
+          {
+            "intentName": "processo_preenchimento",
+            "utterName": "utter_processo_preenchimento"
+          },
+          {
+            "intentName": "processo_admissibilidade",
+            "utterName": "utter_processo_admissibilidade"
+          },
+          {
+            "intentName": "processo_aprovacao",
+            "utterName": "utter_processo_aprovacao"
+          },
+          {
+            "intentName": "processo_execucao",
+            "utterName": "utter_processo_execucao"
+          },
+          {
+            "intentName": "processo_analise_de_resultados",
+            "utterName": "utter_processo_analise_de_resultados"
+          },
+          {
+            "intentName": "processo_definicao_etapas",
+            "utterName": "utter_processo_definicao_etapas"
+          },
+          {
+            "intentName": "processo_prazo_apresentar_proposta",
+            "utterName": "utter_processo_prazo_apresentar_proposta"
+          },
+          {
+            "intentName": "processo_prazo_apresentar_proposta",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "despedir",
+            "utterName": "utter_despedir"
+          },
+          {
+            "intentName": "tudo_bem",
+            "utterName": "utter_tudo_bem"
+          },
+          {
+            "intentName": "tudo_bem",
+            "utterName": "utter_menu"
+          },
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "quem_criou_a_tais",
+            "utterName": "utter_quem_criou_a_tais"
+          },
+          {
+            "intentName": "diga_mais",
+            "utterName": "utter_diga_mais"
+          },
+          {
+            "intentName": "out_of_scope",
+            "utterName": "utter_default"
+          },
+          {
+            "intentName": "expressoes_indesejadas",
+            "utterName": "utter_expressoes_indesejadas"
+          },
+          {
+            "intentName": "afirmar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "negar",
+            "utterName": "utter_despedir"
+          },
+          {
+            "intentName": "o_que_sei_falar",
+            "utterName": "utter_o_que_sei_falar"
+          },
+          {
+            "intentName": "elogios",
+            "utterName": "utter_elogios"
+          },
+          {
+            "intentName": "elogios",
+            "utterName": "utter_objetivo"
+          },
+          {
+            "intentName": "tem_wpp",
+            "utterName": "utter_tem_wpp"
+          },
+          {
+            "intentName": "tem_wpp",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "erro_resposta_utter",
+            "utterName": "utter_erro_resposta_utter"
+          },
+          {
+            "intentName": "erro_resposta_utter",
+            "utterName": "nter_conversa"
+          },
+          {
+            "intentName": "cumprimentar",
+            "utterName": "utter_cumprimentar"
+          },
+          {
+            "intentName": "definicao_tais",
+            "utterName": "utter_definicao_tais"
+          },
+          {
+            "intentName": "definicao_tais",
+            "utterName": "utter_objetivo"
+          },
+          {
+            "intentName": "negar",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "afirmar",
+            "utterName": "utter_processo_como_funciona"
+          },
+          {
+            "intentName": "definicao_minc",
+            "utterName": "utter_definicao_minc"
+          },
+          {
+            "intentName": "definicao_minc",
+            "utterName": "utter_objetivo"
+          },
+          {
+            "intentName": "definicao_salic",
+            "utterName": "utter_definicao_salic"
+          },
+          {
+            "intentName": "definicao_salic",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "definicao_cnic",
+            "utterName": "utter_definicao_cnic"
+          },
+          {
+            "intentName": "definicao_cnic",
+            "utterName": "utter_objetivo"
+          },
+          {
+            "intentName": "definicao_sefic",
+            "utterName": "utter_definicao_sefic"
+          },
+          {
+            "intentName": "definicao_sefic",
+            "utterName": "utter_objetivo"
+          },
+          {
+            "intentName": "definicao_vinculada",
+            "utterName": "utter_definicao_vinculada"
+          },
+          {
+            "intentName": "definicao_vinculada",
+            "utterName": "utter_continuar_conversa"
+          },
+          {
+            "intentName": "quem_criou_a_tais",
+            "utterName": "utter_quem_criou_a_tais"
+          },
+          {
+            "intentName": "quem_criou_a_tais",
+            "utterName": "utter_objetivo"
+          }
+        ]
+      }
+    ]
+  }
+}
