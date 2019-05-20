@@ -20,8 +20,8 @@ const mapActions = dispatch => ({
   save: (examples) => {
     dispatch(actions.save(examples))
   },
-  openAddModal: (number) => {
-    dispatch(actions.openAddModal(number))
+  openAddModal: () => {
+    dispatch(actions.openAddModal())
   },
   fetchData: (path, data) => {
     dispatch(actions.fetchData(path, data))
@@ -52,14 +52,15 @@ class TopBar extends Component {
   }
   render() {
     const { filename, isUnsaved, save, openAddModal } = this.props
+
     const isOnline = true
     const fileButtons = isOnline
       ? (
-        <div style={{ display: 'flex' }}>
+        <div style={{display: 'flex'}}>
           <FileReaderInput
             as='text'
             onChange={(e, results) => this.handleFileInputChange(e, results)}
-          >
+            >
             <Button type='ghost' style={styles.button}>
               <Icon type='upload' /> Click to Upload
             </Button>
@@ -68,8 +69,8 @@ class TopBar extends Component {
             type={isUnsaved ? 'primary' : 'ghost'}
             style={styles.button}
             onClick={() => {
-              let blob = new Blob(
-                [generateExport()],
+              var blob = new Blob(
+                [ generateExport() ],
                 { type: 'text/plain;charset=utf-8' },
               )
               debugger
@@ -82,7 +83,7 @@ class TopBar extends Component {
       )
       : (
         <Button
-          style={styles.button}
+          style={ styles.button }
           type={isUnsaved ? 'primary' : 'default'}
           onClick={() => save(generateExport())}
         >
@@ -95,35 +96,17 @@ class TopBar extends Component {
         <h3 style={{ marginLeft: 8, marginTop: 5 }}>
           {filename}
         </h3>
-        <div style={{ flex: 1 }} />
+        <div style={{flex: 1}} />
         <Button
-          style={styles.button}
+          style={ styles.button }
           type='primary'
-          onClick={() => openAddModal('intents')}
-          key={"intentButton"}
+          onClick={() => openAddModal()}
         >
-          Add new intent
+          Add new example
         </Button>
-        <Button
-          style={styles.button}
-          type='primary'
-          onClick={() => openAddModal('utters')}
-          key={"utterButton"}
-          >
-          Add new utter
-          </Button>
-          <Button
-          style={styles.button}
-          type='primary'
-          onClick={() => openAddModal('stories')}
-          key={"storieButton"}
-          >
-          Add new story
-          </Button>
-
         {fileButtons}
-        <ClearButton style={styles.button} />
-      </div >
+        <ClearButton style={ styles.button }/>
+      </div>
     )
   }
 }
