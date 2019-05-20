@@ -14,6 +14,8 @@ services:
       - ./app/:/rasa-nlu-trainer/
       - /app/node_modules
     command: npm start
+    links:
+      - node-server
   node-server:
     build:
       context: .

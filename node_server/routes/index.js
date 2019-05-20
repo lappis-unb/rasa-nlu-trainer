@@ -43,28 +43,28 @@ const joiObject = Joi.object().keys({
     common_examples: Joi.object().keys({
       utters: Joi.array().items(
         Joi.object().keys({
-          utter: Joi.string().alphanum().min(3).required(),
-          utter_name: Joi.string().alphanum().min(3).required(),
+          utter: Joi.string().min(3).required(),
+          nameUtter: Joi.string().min(3).required(),
         }),
       ).required(),
       intents: Joi.array().items(
         Joi.object().keys({
           intent: Joi.string().required(),
-          intent_text: Joi.string().alphanum().min(3).required(),
+          nameIntent: Joi.string().min(3).required(),
           entities: Joi.array().items(
             Joi.object().keys({
               start: Joi.number().required(),
               end: Joi.number().required(),
-              value: Joi.string().alphanum().min(3).required(),
-              entity: Joi.string().alphanum().min(3).required(),
+              value: Joi.string().min(3).required(),
+              entity: Joi.string().min(3).required(),
             }),
           ),
         }),
       ).required(),
       stories: Joi.array().items(
         Joi.object().keys({
-          utter_name: Joi.string().alphanum().min(3).required(),
-          intent: Joi.string().alphanum().min(3).required(),
+          nameUtter: Joi.string().min(3).required(),
+          nameIntent: Joi.string().min(3).required(),
         }),
       ).required(),
     }).required(),
