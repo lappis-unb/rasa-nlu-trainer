@@ -10,7 +10,12 @@ Use the [online version](https://rasahq.github.io/rasa-nlu-trainer/) or [install
 
 ## installation with docker
 
+When running for the first time
+
 `# docker-compose up`
+
+After any changes
+`# docker-compose up --build`
 
 Add access it at `http://localhost:3000/`
 
