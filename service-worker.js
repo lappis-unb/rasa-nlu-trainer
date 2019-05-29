@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rasa-nlu-trainer/precache-manifest.4329b8b47365e4ff3b25ccb42d56421c.js"
+  "/rasa-nlu-trainer/precache-manifest.84b97b5af46a93e3ba1fdc7eb33a1d18.js"
 );
 
 workbox.clientsClaim();

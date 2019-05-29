@@ -1,15 +1,15 @@
 {
-  "main.css": "/rasa-nlu-trainer/static/css/main.27f6b72c.chunk.css",
-  "main.js": "/rasa-nlu-trainer/static/js/main.cb8533f8.chunk.js",
-  "main.js.map": "/rasa-nlu-trainer/static/js/main.cb8533f8.chunk.js.map",
+  "main.js": "/rasa-nlu-trainer/static/js/main.2a90705a.chunk.js",
+  "main.js.map": "/rasa-nlu-trainer/static/js/main.2a90705a.chunk.js.map",
   "runtime~main.js": "/rasa-nlu-trainer/static/js/runtime~main.dbf01a02.js",
   "runtime~main.js.map": "/rasa-nlu-trainer/static/js/runtime~main.dbf01a02.js.map",
-  "static/css/2.c11352b0.chunk.css": "/rasa-nlu-trainer/static/css/2.c11352b0.chunk.css",
-  "static/js/2.f259feb1.chunk.js": "/rasa-nlu-trainer/static/js/2.f259feb1.chunk.js",
-  "static/js/2.f259feb1.chunk.js.map": "/rasa-nlu-trainer/static/js/2.f259feb1.chunk.js.map",
+  "static/css/2.87f6a310.chunk.css": "/rasa-nlu-trainer/static/css/2.87f6a310.chunk.css",
+  "static/js/2.3ada548d.chunk.js": "/rasa-nlu-trainer/static/js/2.3ada548d.chunk.js",
+  "static/js/2.3ada548d.chunk.js.map": "/rasa-nlu-trainer/static/js/2.3ada548d.chunk.js.map",
   "index.html": "/rasa-nlu-trainer/index.html",
-  "precache-manifest.4329b8b47365e4ff3b25ccb42d56421c.js": "/rasa-nlu-trainer/precache-manifest.4329b8b47365e4ff3b25ccb42d56421c.js",
+  "precache-manifest.84b97b5af46a93e3ba1fdc7eb33a1d18.js": "/rasa-nlu-trainer/precache-manifest.84b97b5af46a93e3ba1fdc7eb33a1d18.js",
   "service-worker.js": "/rasa-nlu-trainer/service-worker.js",
-  "static/css/2.c11352b0.chunk.css.map": "/rasa-nlu-trainer/static/css/2.c11352b0.chunk.css.map",
-  "static/css/main.27f6b72c.chunk.css.map": "/rasa-nlu-trainer/static/css/main.27f6b72c.chunk.css.map"
+  "static/css/2.87f6a310.chunk.css.map": "/rasa-nlu-trainer/static/css/2.87f6a310.chunk.css.map",
+  "static/media/font-awesome.css": "/rasa-nlu-trainer/static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/logo.png": "/rasa-nlu-trainer/static/media/logo.2dbd8ff8.png"
 }
