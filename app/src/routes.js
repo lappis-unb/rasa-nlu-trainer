@@ -5,7 +5,6 @@ import { isAuthenticated } from './services/auth'
 import SignIn from './pages/SignIn'
 import { Provider } from 'react-redux'
 import App from './components/App'
-import * as actions from './state/actions'
 import store from './state/store'
 
 const PrivateRoute = ({ component: Component, ...rest }) => (

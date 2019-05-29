@@ -1,10 +1,20 @@
 import styled from 'styled-components'
+import 'font-awesome/css/font-awesome.css'
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  background: #eee;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  width: 100%;
 `
 
 export const Form = styled.form`

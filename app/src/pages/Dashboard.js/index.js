@@ -1,12 +1,8 @@
-// @flow
-
+// @flow    
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { Layout, Spin, Menu, Icon, Switch } from 'antd'
-import ExampleTable from './ExampleTable'
-import CompatibilityAlert from './CompatibilityAlert'
-import { fetchApi } from '../state/actions'
 import theme from 'styled-theming'
 const backgroundColor = theme('mode', {
   light: '#fafafa',
@@ -24,12 +20,6 @@ const Wrapper = styled.div`
 const { SubMenu } = Menu
 
 const { Header, Content, Footer, Sider } = Layout
-
-const mapState = state => ({
-  stateIntents: state.intents,
-  stateUtters: state.utters,
-  stateStories: state.stories
-})
 
 class App extends Component {
   state = {

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-app-rewire-styled-components": "^3.0.2",
+    "styled-theming": "^2.2.0"
+  }
+}
