@@ -1,4 +1,4 @@
-# rasa-nlu-trainer
+# BotFlow
 This is a tool to edit your training examples for [rasa NLU](https://github.com/rasahq/rasa_nlu)
 
 
@@ -15,6 +15,9 @@ When running for the first time
 `# docker-compose up`
 
 After any changes
+
+`# ./builbase.sh`
+
 `# docker-compose up --build`
 
 Add access it at `http://localhost:3000/`
